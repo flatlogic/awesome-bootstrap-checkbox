@@ -1,3 +1,16 @@
+@mixin checkbox-variant($parent, $color) {
+  #{$parent} input[type=checkbox]:checked + label{
+    &:before {
+      background-color: $color;
+      border-color: $color;
+    }
+    &:after{
+      color: #fff;
+    }
+  }
+}
+
+
 .checkbox{
   label{
     display: inline-block;
@@ -50,4 +63,14 @@
     }
 
   }
+
+  &.checkbox-circle label:before{
+    border-radius: 50%;
+  }
 }
+
+@include checkbox-variant('.checkbox-primary', $brand-primary);
+@include checkbox-variant('.checkbox-danger', $brand-danger);
+@include checkbox-variant('.checkbox-info', $brand-info);
+@include checkbox-variant('.checkbox-warning', $brand-warning);
+@include checkbox-variant('.checkbox-success', $brand-success);

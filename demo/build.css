@@ -36,3 +36,35 @@
     .checkbox input[type=checkbox]:disabled + label:before {
       background-color: #eeeeee;
       cursor: not-allowed; }
+.checkbox.checkbox-circle label:before {
+  border-radius: 50%; }
+
+.checkbox-primary input[type=checkbox]:checked + label:before {
+  background-color: #428bca;
+  border-color: #428bca; }
+.checkbox-primary input[type=checkbox]:checked + label:after {
+  color: #fff; }
+
+.checkbox-danger input[type=checkbox]:checked + label:before {
+  background-color: #d9534f;
+  border-color: #d9534f; }
+.checkbox-danger input[type=checkbox]:checked + label:after {
+  color: #fff; }
+
+.checkbox-info input[type=checkbox]:checked + label:before {
+  background-color: #5bc0de;
+  border-color: #5bc0de; }
+.checkbox-info input[type=checkbox]:checked + label:after {
+  color: #fff; }
+
+.checkbox-warning input[type=checkbox]:checked + label:before {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e; }
+.checkbox-warning input[type=checkbox]:checked + label:after {
+  color: #fff; }
+
+.checkbox-success input[type=checkbox]:checked + label:before {
+  background-color: #5cb85c;
+  border-color: #5cb85c; }
+.checkbox-success input[type=checkbox]:checked + label:after {
+  color: #fff; }

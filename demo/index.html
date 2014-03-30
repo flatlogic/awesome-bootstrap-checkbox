@@ -9,30 +9,98 @@
 </head>
 <body>
 <div class="container">
-    <h2>Basic controls</h2>
+    <h2>Checkboxes</h2>
     <form role="form">
         <div class="row">
             <div class="col-md-4">
-                <div class="checkbox">
-                    <input id="checkbox1" type="checkbox">
-                    <label for="checkbox1">
-                        Check me out
-                    </label>
-                </div>
+                <fieldset>
+                    <legend>
+                        Basic
+                    </legend>
+                    <p>
+                        Supports bootstrap brand colors: <code>.checkbox-primary</code>, <code>.checkbox-info</code> etc.
+                    </p>
+                    <div class="checkbox">
+                        <input id="checkbox1" type="checkbox">
+                        <label for="checkbox1">
+                            Default
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-primary">
+                        <input id="checkbox2" type="checkbox" checked>
+                        <label for="checkbox2">
+                            Primary
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input id="checkbox3" type="checkbox">
+                        <label for="checkbox3">
+                            Success
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-info">
+                        <input id="checkbox4" type="checkbox">
+                        <label for="checkbox4">
+                            Info
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-warning">
+                        <input id="checkbox5" type="checkbox" checked>
+                        <label for="checkbox5">
+                            Warning
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-danger">
+                        <input id="checkbox6" type="checkbox" checked>
+                        <label for="checkbox6">
+                            Check me out
+                        </label>
+                    </div>
+                </fieldset>
             </div>
             <div class="col-md-4">
-                <div class="checkbox">
-                    <input id="checkbox7" type="checkbox" disabled>
-                    <label for="checkbox7">
-                        Can't check this
-                    </label>
-                </div>
-                <div class="checkbox">
-                    <input id="checkbox8" type="checkbox" disabled checked>
-                    <label for="checkbox8">
-                        This too
-                    </label>
-                </div>
+                <fieldset>
+                    <legend>
+                        Circled
+                    </legend>
+                    <p>
+                        <code>.checkbox-circle</code> for roundness.
+                    </p>
+                    <div class="checkbox checkbox-circle">
+                        <input id="checkbox7" type="checkbox">
+                        <label for="checkbox7">
+                            Simply Rounded
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-info checkbox-circle">
+                        <input id="checkbox8" type="checkbox" checked>
+                        <label for="checkbox8">
+                            Me too
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Disabled
+                    </legend>
+                    <p>
+                        Disabled state also supported.
+                    </p>
+                    <div class="checkbox">
+                        <input id="checkbox9" type="checkbox" disabled>
+                        <label for="checkbox9">
+                            Can't check this
+                        </label>
+                    </div>
+                    <div class="checkbox checkbox-success">
+                        <input id="checkbox10" type="checkbox" disabled checked>
+                        <label for="checkbox10">
+                            This too
+                        </label>
+                    </div>
+                </fieldset>
             </div>
         </div>
     </form>
