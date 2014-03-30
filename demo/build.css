@@ -1,0 +1,32 @@
+.checkbox label {
+  display: inline-block;
+  position: relative;
+  padding-left: 5px; }
+  .checkbox label:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 0;
+    margin-left: -20px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+  .checkbox label:after {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    left: 0;
+    top: 0;
+    margin-left: -20px;
+    padding-left: 3px;
+    padding-top: 1px;
+    position: absolute;
+    font-size: 11px; }
+.checkbox input[type=checkbox] {
+  display: none; }
+  .checkbox input[type=checkbox]:checked + label:after {
+    font-family: 'FontAwesome';
+    content: "\f00c"; }

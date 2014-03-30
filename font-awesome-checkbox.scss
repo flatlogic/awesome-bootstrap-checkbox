@@ -1,0 +1,43 @@
+.checkbox{
+  label{
+    display: inline-block;
+    position: relative;
+    padding-left: 5px;
+
+    &:before{
+      content: "";
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      position: absolute;
+      left: 0;
+      margin-left: -20px;
+      border: 1px solid $input-border;
+      border-radius: 3px;
+      @include transition(border 0.15s ease-in-out, color 0.15s ease-in-out);
+    }
+
+    &:after{
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      left: 0;
+      top: 0;
+      margin-left: -20px;
+      padding-left: 3px;
+      padding-top: 1px;
+      position: absolute;
+      font-size: 11px;
+    }
+  }
+
+  input[type=checkbox]{
+    display: none;
+
+    &:checked + label:after{
+      font-family: 'FontAwesome';
+      content: $fa-var-check;
+    }
+
+  }
+}

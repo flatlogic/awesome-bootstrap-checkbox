@@ -1,0 +1,15 @@
+.checkbox label {
+  position: relative; }
+  .checkbox label:before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 0;
+    top: 1.4px;
+    border: 1px solid #C2C6CB;
+    border-radius: 3px;
+    transition: border 0.2s linear 0s,color 0.2s linear 0s; }
+.checkbox input[type=checkbox] {
+  display: none; }

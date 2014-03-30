@@ -1,0 +1,16 @@
+{
+  "name": "font-awesome-checkbox",
+  "version": "0.1.0",
+  "authors": [
+    "okendoken flatlogic.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git",
+    "Font-Awesome": "*"
+  }
+}
