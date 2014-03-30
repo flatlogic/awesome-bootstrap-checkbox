@@ -12,6 +12,7 @@
     margin-left: -20px;
     border: 1px solid #cccccc;
     border-radius: 3px;
+    background-color: #fff;
     -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
     transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
   .checkbox label:after {
@@ -30,3 +31,8 @@
   .checkbox input[type=checkbox]:checked + label:after {
     font-family: 'FontAwesome';
     content: "\f00c"; }
+  .checkbox input[type=checkbox]:disabled + label {
+    opacity: 0.65; }
+    .checkbox input[type=checkbox]:disabled + label:before {
+      background-color: #eeeeee;
+      cursor: not-allowed; }
