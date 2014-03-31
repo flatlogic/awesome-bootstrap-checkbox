@@ -25,9 +25,9 @@
     &:before{
       content: "";
       display: inline-block;
+      position: absolute;
       width: 17px;
       height: 17px;
-      position: absolute;
       left: 0;
       margin-left: -20px;
       border: 1px solid $input-border;
@@ -38,6 +38,7 @@
 
     &:after{
       display: inline-block;
+      position: absolute;
       width: 16px;
       height: 16px;
       left: 0;
@@ -45,7 +46,6 @@
       margin-left: -20px;
       padding-left: 3px;
       padding-top: 1px;
-      position: absolute;
       font-size: 11px;
       color: $gray;
     }
@@ -104,7 +104,7 @@
 }
 
 .radio{
-  
+
   label{
     display: inline-block;
     position: relative;
@@ -113,9 +113,9 @@
     &:before{
       content: "";
       display: inline-block;
+      position: absolute;
       width: 17px;
       height: 17px;
-      position: absolute;
       left: 0;
       margin-left: -20px;
       border: 1px solid $input-border;
@@ -126,13 +126,13 @@
 
     &:after{
       display: inline-block;
+      position: absolute;
       content: " ";
       width: 11px;
       height: 11px;
       left: 3px;
       top: 3px;
       margin-left: -20px;
-      position: absolute;
       border-radius: 50%;
       background-color: $gray;
       @include scale(0);

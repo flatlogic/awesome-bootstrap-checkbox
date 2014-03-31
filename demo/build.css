@@ -5,9 +5,9 @@
   .checkbox label:before {
     content: "";
     display: inline-block;
+    position: absolute;
     width: 17px;
     height: 17px;
-    position: absolute;
     left: 0;
     margin-left: -20px;
     border: 1px solid #cccccc;
@@ -17,6 +17,7 @@
     transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
   .checkbox label:after {
     display: inline-block;
+    position: absolute;
     width: 16px;
     height: 16px;
     left: 0;
@@ -24,7 +25,6 @@
     margin-left: -20px;
     padding-left: 3px;
     padding-top: 1px;
-    position: absolute;
     font-size: 11px;
     color: #555555; }
 .checkbox input[type=checkbox] {
@@ -77,9 +77,9 @@
   .radio label:before {
     content: "";
     display: inline-block;
+    position: absolute;
     width: 17px;
     height: 17px;
-    position: absolute;
     left: 0;
     margin-left: -20px;
     border: 1px solid #cccccc;
@@ -89,13 +89,13 @@
     transition: border 0.15s ease-in-out; }
   .radio label:after {
     display: inline-block;
+    position: absolute;
     content: " ";
     width: 11px;
     height: 11px;
     left: 3px;
     top: 3px;
     margin-left: -20px;
-    position: absolute;
     border-radius: 50%;
     background-color: #555555;
     -webkit-transform: scale(0);
