@@ -14,6 +14,7 @@
     border-radius: 3px;
     background-color: #fff;
     -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
     transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
   .checkbox label:after {
     display: inline-block;
@@ -86,6 +87,7 @@
     border-radius: 50%;
     background-color: #fff;
     -webkit-transition: border 0.15s ease-in-out;
+    -o-transition: border 0.15s ease-in-out;
     transition: border 0.15s ease-in-out; }
   .radio label:after {
     display: inline-block;
@@ -98,9 +100,10 @@
     margin-left: -20px;
     border-radius: 50%;
     background-color: #555555;
-    -webkit-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
+    -webkit-transform: scale(0, 0);
+    -ms-transform: scale(0, 0);
+    -o-transform: scale(0, 0);
+    transform: scale(0, 0);
     -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
     -moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
     -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
@@ -108,9 +111,10 @@
 .radio input[type=radio] {
   display: none; }
   .radio input[type=radio]:checked + label:after {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1); }
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1); }
   .radio input[type=radio]:disabled + label {
     opacity: 0.65; }
     .radio input[type=radio]:disabled + label:before {

@@ -1,7 +1,7 @@
 {
   "name": "awesome-bootstrap-checkbox",
   "main": ["awesome-bootstrap-checkbox.css", "awesome-bootstrap-checkbox.scss"],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "authors": [
     "okendoken flatlogic.com"
   ],
