@@ -84,5 +84,3 @@ Credits
 ------------
 
 Based on [Official Bootstrap Sass port](https://github.com/twbs/bootstrap-sass) and awesome [Font Awesome](https://github.com/FortAwesome/Font-Awesome).
-
-Inspired by [Web Arch Template](http://www.revox.io/webarchv2/form_elements.html)
