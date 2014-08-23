@@ -1,7 +1,7 @@
 {
   "name": "awesome-bootstrap-checkbox",
   "main": ["awesome-bootstrap-checkbox.css", "awesome-bootstrap-checkbox.scss"],
-  "version": "0.1.2",
+  "version": "0.2.1",
   "authors": [
     "okendoken flatlogic.com"
   ],
@@ -11,7 +11,5 @@
     "bower_components"
   ],
   "dependencies": {
-      "bootstrap-sass-official": "3.2.0+1",
-      "Font-Awesome": "~4.1.0"
   }
 }
