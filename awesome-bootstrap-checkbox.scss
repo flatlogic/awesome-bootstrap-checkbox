@@ -3,7 +3,7 @@
 // --------------------------------------------------
 
 @mixin checkbox-variant($parent, $color) {
-  #{$parent} input[type=checkbox]:checked + label{
+  #{$parent} input[type="checkbox"]:checked + label{
     &::before {
       background-color: $color;
       border-color: $color;
@@ -51,7 +51,7 @@
     }
   }
 
-  input[type=checkbox]{
+  input[type="checkbox"]{
     display: none;
 
     &:checked + label::after{
@@ -86,7 +86,7 @@
 // --------------------------------------------------
 
 @mixin radio-variant($parent, $color) {
-  #{$parent} input[type=radio]{
+  #{$parent} input[type="radio"]{
     & + label{
       &::after{
         background-color: $color;
@@ -142,7 +142,7 @@
     }
   }
 
-  input[type=radio]{
+  input[type="radio"]{
     display: none;
 
     &:checked + label::after{
