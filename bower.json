@@ -11,7 +11,7 @@
     "bower_components"
   ],
   "dependencies": {
-    "bootstrap-sass": "git://github.com/twbs/bootstrap-sass.git",
-    "Font-Awesome": "*"
+      "bootstrap-sass-official": "3.2.0+1",
+      "Font-Awesome": "~4.1.0"
   }
 }
