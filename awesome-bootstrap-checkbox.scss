@@ -16,6 +16,7 @@
 
 
 .checkbox{
+  padding-left: 20px;
 
   label{
     display: inline-block;
@@ -73,6 +74,10 @@
   &.checkbox-circle label::before{
     border-radius: 50%;
   }
+
+  &.checkbox-inline{
+    margin-top: 0;
+  }
 }
 
 @include checkbox-variant('.checkbox-primary', $brand-primary);
@@ -104,6 +109,7 @@
 }
 
 .radio{
+  padding-left: 20px;
 
   label{
     display: inline-block;
@@ -157,6 +163,10 @@
       }
     }
 
+  }
+
+  &.radio-inline{
+    margin-top: 0;
   }
 }
 
