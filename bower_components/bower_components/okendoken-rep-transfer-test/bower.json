@@ -1,0 +1,22 @@
+{
+  "name": "okendoken-rep-transfer-test",
+  "version": "0.1.0",
+  "homepage": "https://github.com/okendoken/repTransferTest",
+  "authors": [
+    "okendoken <philip.daineka@gmail.com>"
+  ],
+  "description": "Blah",
+  "main": "README.md",
+  "keywords": [
+    "test",
+    "to-remove"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

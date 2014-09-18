@@ -1,0 +1,32 @@
+{
+  "name": "okendoken-rep-transfer-test",
+  "version": "0.1.1",
+  "homepage": "https://github.com/okendoken/repTransferTest",
+  "authors": [
+    "okendoken <philip.daineka@gmail.com>"
+  ],
+  "description": "Blah",
+  "main": "README.md",
+  "keywords": [
+    "test",
+    "to-remove"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.1",
+    "commit": "5a76857fcd93acac5ee8bb9a43c0c4f6d08e9597"
+  },
+  "_source": "git://github.com/okendoken/repTransferTest.git",
+  "_target": "0.1.1",
+  "_originalSource": "okendoken-rep-transfer-test",
+  "_direct": true
+}
