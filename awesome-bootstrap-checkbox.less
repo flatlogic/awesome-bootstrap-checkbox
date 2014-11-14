@@ -53,7 +53,11 @@
   }
 
   input[type="checkbox"]{
-    display: none;
+    opacity: 0;
+
+    &:focus + label::before{
+      .tab-focus();
+    }
 
     &:checked + label::after{
       font-family: 'FontAwesome';
@@ -149,7 +153,11 @@
   }
 
   input[type="radio"]{
-    display: none;
+    opacity: 0;
+
+    &:focus + label::before{
+      .tab-focus();
+    }
 
     &:checked + label::after{
       .scale(1, 1);
