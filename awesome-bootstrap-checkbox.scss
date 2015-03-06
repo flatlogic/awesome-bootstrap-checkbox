@@ -83,6 +83,10 @@
   &.checkbox-inline{
     margin-top: 0;
   }
+
+  &.checkbox-single label{
+    height: 17px;
+  }
 }
 
 @include checkbox-variant('.checkbox-primary', $brand-primary);
@@ -177,6 +181,10 @@
 
   &.radio-inline{
     margin-top: 0;
+  }
+
+  &.radio-single label{
+    height: 17px;
   }
 }
 

@@ -56,6 +56,15 @@
                             Check me out
                         </label>
                     </div>
+                    <p>Checkboxes without label text <code>.checkbox-single</code></p>
+                    <div class="checkbox checkbox-single">
+                        <input type="checkbox" id="singleCheckbox1" value="option1" aria-label="Single checkbox One">
+                        <label></label>
+                    </div>
+                    <div class="checkbox checkbox-primary checkbox-single">
+                        <input type="checkbox" id="singleCheckbox2" value="option2" checked aria-label="Single checkbox Two">
+                        <label></label>
+                    </div>
                     <p>Inline checkboxes</p>
                     <div class="checkbox checkbox-inline">
                         <input type="checkbox" id="inlineCheckbox1" value="option1">
@@ -164,13 +173,22 @@
                             </div>
                         </div>
                     </div>
+                    <p>Radios without label text <code>.radio-single</code></p>
+                    <div class="radio radio-single">
+                        <input type="radio" id="singleRadio1" value="option1" name="radioSingle1" aria-label="Single radio One">
+                        <label></label>
+                    </div>
+                    <div class="radio radio-success radio-single">
+                        <input type="radio" id="singleRadio2" value="option2" name="radioSingle2" checked aria-label="Single radio Two">
+                        <label></label>
+                    </div>
                     <p>Inline radios</p>
                     <div class="radio radio-info radio-inline">
                         <input type="radio" id="inlineRadio1" value="option1" name="radioInline" checked>
                         <label for="inlineRadio1"> Inline One </label>
                     </div>
                     <div class="radio radio-inline">
-                        <input type="radio" id="inlineRadio2" value="option1" name="radioInline">
+                        <input type="radio" id="inlineRadio2" value="option2" name="radioInline">
                         <label for="inlineRadio2"> Inline Two </label>
                     </div>
                 </fieldset>

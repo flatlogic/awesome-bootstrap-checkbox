@@ -49,6 +49,8 @@
     border-radius: 50%; }
 .checkbox.checkbox-inline {
     margin-top: 0; }
+.checkbox.checkbox-single label {
+    height: 17px; }
 
 .checkbox-primary input[type="checkbox"]:checked + label::before {
     background-color: #428bca;
@@ -137,6 +139,8 @@
     cursor: not-allowed; }
 .radio.radio-inline {
     margin-top: 0; }
+.radio.radio-single label {
+    height: 17px; }
 
 .radio-primary input[type="radio"] + label::after {
     background-color: #428bca; }
