@@ -1,7 +1,7 @@
 {
   "name": "awesome-bootstrap-checkbox",
   "main": ["awesome-bootstrap-checkbox.css", "awesome-bootstrap-checkbox.scss"],
-  "version": "0.2.3",
+  "version": "0.3.0",
   "homepage": "https://github.com/flatlogic/awesome-bootstrap-checkbox",
   "authors": [
     "okendoken flatlogic.com"
