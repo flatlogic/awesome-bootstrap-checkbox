@@ -73,12 +73,14 @@ It's the same for radios. Markup has to be the following:
 </form>
 ````
 
-Brand Colors
+Brand Colors and other features
 ------------
 
 You may use `checkbox-primary`, `checkbox-danger`, `radio-info`, etc to style checkboxes and radios with brand bootstrap colors.
 
 `checkbox-circle` is for rounded checkboxes.
+
+`checkbox-single` and `radio-single` for inputs without label text.
 
 Glyphicons way (Opt-out Font Awesome)
 ------------
