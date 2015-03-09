@@ -2,6 +2,8 @@
 // Checkboxes
 // --------------------------------------------------
 
+@font-family-icon: 'FontAwesome';
+
 .checkbox-variant(@parent, @color) {
   .@{parent} input[type="checkbox"]:checked + label {
     &::before {
@@ -61,7 +63,7 @@
     }
 
     &:checked + label::after{
-      font-family: 'FontAwesome';
+      font-family: @font-family-icon;
       content: @fa-var-check;
     }
 
