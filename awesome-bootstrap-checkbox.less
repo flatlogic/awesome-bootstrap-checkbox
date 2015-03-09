@@ -50,7 +50,7 @@
       padding-left: 3px;
       padding-top: 1px;
       font-size: 11px;
-      color: @gray;
+      color: @input-color;
     }
   }
 
@@ -71,7 +71,7 @@
       opacity: 0.65;
 
       &::before{
-        background-color: @gray-lighter;
+        background-color: @input-bg-disabled;
         cursor: not-allowed;
       }
     }
@@ -151,7 +151,7 @@
       top: 3px;
       margin-left: -20px;
       border-radius: 50%;
-      background-color: @gray;
+      background-color: @input-color;
       .scale(0, 0);
 
       .transition-transform(.1s cubic-bezier(.8,-0.33,.2,1.33));
