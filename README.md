@@ -5,18 +5,6 @@ Font Awesome Bootstrap Checkboxes &amp; Radios plugin. Pure css way to make inpu
 
 **[Demo](http://awesome-bootstrap-checkbox.okendoken.com/demo/index.html)**
 
-
-Repository moved. Update your urls!
-------------
-
-We have transferred Awesome Bootstrap Checkbox to a new location under our organization account - https://github.com/flatlogic/awesome-bootstrap-checkbox. Though Gihub provides
-redirects from old urls, we strongly recommend updating any existing local clones to point to the new repository URL. You can
-do this by using `git remote` on the command line:
-
-````bash
-git remote set-url origin https://github.com/flatlogic/awesome-bootstrap-checkbox.git
-````
-
 Use
 ------------
 
