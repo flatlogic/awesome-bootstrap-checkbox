@@ -3,6 +3,7 @@
 }
 .checkbox label {
   display: inline-block;
+  vertical-align: middle;
   position: relative;
   padding-left: 5px;
 }
@@ -60,9 +61,6 @@
 .checkbox.checkbox-inline {
   margin-top: 0;
 }
-.checkbox.checkbox-single label {
-  height: 17px;
-}
 .checkbox-primary input[type="checkbox"]:checked + label::before {
   background-color: #428bca;
   border-color: #428bca;
@@ -103,6 +101,7 @@
 }
 .radio label {
   display: inline-block;
+  vertical-align: middle;
   position: relative;
   padding-left: 5px;
 }
@@ -164,9 +163,6 @@
 }
 .radio.radio-inline {
   margin-top: 0;
-}
-.radio.radio-single label {
-  height: 17px;
 }
 .radio-primary input[type="radio"] + label::after {
   background-color: #428bca;
