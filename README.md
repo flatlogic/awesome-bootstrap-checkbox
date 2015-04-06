@@ -8,7 +8,7 @@ Font Awesome Bootstrap Checkboxes &amp; Radios plugin. Pure css way to make inpu
 Use
 ------------
 
-First just include **awesome-bootstrap-checkbox.css** somewhere in your html. Or **awesome-bootstrap-checkbox.scss** if you use sass.
+First just include **awesome-bootstrap-checkbox.css** somewhere in your html and **bower_components/font-awesome/css/font-awesome.css**. Or **awesome-bootstrap-checkbox.scss** if you use sass.
 Next everything is based on code convention. Here is checkbox markup from Bootstrap site:
 
 ````html
