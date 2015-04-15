@@ -189,3 +189,19 @@ $font-family-icon: 'FontAwesome' !default;
 @include radio-variant('.radio-info', $brand-info);
 @include radio-variant('.radio-warning', $brand-warning);
 @include radio-variant('.radio-success', $brand-success);
+
+
+input[type="checkbox"] {
+  &.styled:checked + label:after {
+    font-family: 'FontAwesome';
+    content: "\f00c";
+  }
+  & .styled:checked + label {
+    &::before {
+      color: #fff;
+    }
+    &::after {
+      color: #fff;
+    }
+  }
+}
