@@ -14,5 +14,9 @@
     "**/.*",
     "bower_components"
   ],
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap-sass-official": "3.3.3",
+    "font-awesome-sass": "4.3.1"
+  }
 }
