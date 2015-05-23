@@ -2,10 +2,12 @@
 // Checkboxes
 // --------------------------------------------------
 
+
 $font-family-icon: 'FontAwesome' !default;
 
 @mixin checkbox-variant($parent, $color) {
-  #{$parent} input[type="checkbox"]:checked + label{
+  #{$parent} input[type="checkbox"]:checked + label,
+  #{$parent} input[type="radio"]:checked + label {
     &::before {
       background-color: $color;
       border-color: $color;
@@ -55,7 +57,8 @@ $font-family-icon: 'FontAwesome' !default;
     }
   }
 
-  input[type="checkbox"]{
+  input[type="checkbox"],
+  input[type="radio"] {
     opacity: 0;
     z-index: 1;
 
@@ -191,7 +194,8 @@ $font-family-icon: 'FontAwesome' !default;
 @include radio-variant('.radio-success', $brand-success);
 
 
-input[type="checkbox"] {
+input[type="checkbox"],
+input[type="radio"] {
   &.styled:checked + label:after {
     font-family: 'FontAwesome';
     content: "\f00c";
