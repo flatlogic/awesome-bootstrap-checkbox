@@ -93,6 +93,20 @@ If you want to use glyphicons instead of font-awesome then override `.checkbox` 
 }
 ````
 
+Using SASS
+----------
+
+As per example in the `demo` folder, to use these **awesome** you'll have to `@import` the following library parts:
+
+````scss
+@import "../bootstrap/bootstrap/variables";
+@import "../bootstrap/bootstrap/mixins";
+
+@import "../font-awesome/variables";
+````
+
+Adjust this to the path where your bootstrap and font-awesome files are located.
+
 Credits
 ------------
 
