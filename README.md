@@ -45,6 +45,14 @@ If you want to enable **Opera 12** and earlier support  just add class `styled` 
 ...
 ````
 
+Browser support
+-----------
+- Firefox (_3.6+_)
+- Chrome  (_14+_)
+- IE      (_9+_)
+- Opera   (_11.6+_)
+- Safari  (_6+_)
+
 Radios
 ------------
 
