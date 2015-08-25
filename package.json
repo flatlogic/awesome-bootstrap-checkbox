@@ -1,0 +1,23 @@
+{
+  "name": "awesome-bootstrap-checkbox",
+  "version": "1.0.0",
+  "description": "awesome bootstrap checkbox",
+  "directories": {
+     "demo": "demo"
+   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecla5/awesome-bootstrap-checkbox.git"
+  },
+  "keywords": [
+    "awesome",
+    "bootstrap",
+    "checkbox"
+  ],
+  "author": "flatlogic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flatlogic/awesome-bootstrap-checkbox/issues"
+  },
+  "homepage": "https://github.com/flatlogic/awesome-bootstrap-checkbox#readme"
+}
