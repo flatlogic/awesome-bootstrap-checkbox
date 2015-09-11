@@ -197,8 +197,8 @@ $font-family-icon: 'FontAwesome' !default;
 input[type="checkbox"],
 input[type="radio"] {
   &.styled:checked + label:after {
-    font-family: 'FontAwesome';
-    content: "\f00c";
+    font-family: $font-family-icon;
+    content: $fa-var-check;
   }
   & .styled:checked + label {
     &::before {
