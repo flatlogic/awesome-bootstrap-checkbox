@@ -3,6 +3,8 @@
 // --------------------------------------------------
 
 @font-family-icon: 'FontAwesome';
+@fa-var-check: "\f00c";
+@check-icon: @fa-var-check;
 
 .checkbox-variant(@parent, @color) {
   .@{parent} input[type="checkbox"]:checked + label,
@@ -67,7 +69,7 @@
 
     &:checked + label::after{
       font-family: @font-family-icon;
-      content: @fa-var-check;
+      content: @check-icon;
     }
 
     &:disabled + label{
@@ -196,7 +198,7 @@ input[type="checkbox"],
 input[type="radio"] {
   &.styled:checked + label:after {
     font-family: @font-family-icon;
-    content: @fa-var-check;
+    content: @check-icon;
   }
   & .styled:checked + label {
     &::before {
