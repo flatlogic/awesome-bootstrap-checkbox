@@ -110,9 +110,9 @@ Just like the Sass setup, you'll have to `@import` the following library parts:
 @import "../bower_components/bootstrap/less/variables";
 @import "../bower_components/bootstrap/less/mixins";
 
-@import "../bower_components/Font-Awesome/less/variables";
-
 @import "../awesome-bootstrap-checkbox";
+
+@import "../bower_components/Font-Awesome/less/variables";
 ````
 
 Custom icon font
