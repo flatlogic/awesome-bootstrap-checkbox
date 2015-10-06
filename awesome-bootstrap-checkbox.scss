@@ -103,7 +103,7 @@ $font-family-icon: 'FontAwesome' !default;
 
 @mixin radio-variant($parent, $color) {
   #{$parent} input[type="radio"]{
-    & + label{
+    + label{
       &::after{
         background-color: $color;
       }
@@ -200,7 +200,7 @@ input[type="radio"] {
     font-family: 'FontAwesome';
     content: "\f00c";
   }
-  & .styled:checked + label {
+  .styled:checked + label {
     &::before {
       color: #fff;
     }
