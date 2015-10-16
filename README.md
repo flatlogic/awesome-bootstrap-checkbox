@@ -1,15 +1,15 @@
 Awesome Bootstrap Checkbox
 ==========================
 
-Font Awesome Bootstrap Checkboxes &amp; Radios plugin. Pure css way to make inputs look prettier. **No javascript**!
+[Font Awesome][] [Bootstrap][] Checkboxes & Radios plugin. Pure CSS way to make inputs look prettier. **No Javascript!**
 
-**[Demo](http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/)**
+**[Demo][]**
 
 Use
 ------------
 
-First just include **awesome-bootstrap-checkbox.css** somewhere in your html. Or **awesome-bootstrap-checkbox.scss** if you use sass.
-Next everything is based on code convention. Here is checkbox markup from Bootstrap site:
+First just include **awesome-bootstrap-checkbox.css** somewhere in your HTML, or add the equivalent files to your [Sass](#using-sass) / [Less](#using-less) configuration.
+Next, everything is based on code convention. Here is checkbox markup from Bootstrap site:
 
 ````html
 <form role="form">
@@ -85,15 +85,44 @@ You may use `checkbox-primary`, `checkbox-danger`, `radio-info`, etc to style ch
 
 `checkbox-single` and `radio-single` for inputs without label text.
 
-Glyphicons way (Opt-out Font Awesome)
+Using [Sass][]
+----------
+
+As per example in the `demo` folder, to use Font Awesome you'll have to `@import` the following library parts:
+
+````scss
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
+
+@import "../bower_components/Font-Awesome/scss/variables";
+
+@import "../awesome-bootstrap-checkbox";
+````
+
+Adjust this to the path where your bootstrap and font-awesome files are located.
+
+Using [Less][]
+----------
+
+Just like the Sass setup, you'll have to `@import` the following library parts:
+
+````less
+@import "../bower_components/bootstrap/less/variables";
+@import "../bower_components/bootstrap/less/mixins";
+
+@import "../awesome-bootstrap-checkbox";
+
+@import "../bower_components/Font-Awesome/less/variables";
+````
+
+Custom icon font
 ------------
 
-If you want to use glyphicons instead of font-awesome then override `.checkbox` class:
-````css
-.checkbox input[type=checkbox]:checked + label:after {
-    font-family: 'Glyphicons Halflings';
-    content: "\e013";
-}
+If you want to use another icon font instead of Font Awesome, such as [Glyphicons][], override the default variables:
+````scss
+$font-family-icon: 'Glyphicons Halflings';
+$check-icon: "\e013";
+
 .checkbox label:after {
     padding-left: 4px;
     padding-top: 2px;
@@ -101,21 +130,42 @@ If you want to use glyphicons instead of font-awesome then override `.checkbox` 
 }
 ````
 
-Using SASS
-----------
+or for Less:
+````less
+@font-family-icon: 'Glyphicons Halflings';
+@check-icon: "\e013";
 
-As per example in the `demo` folder, to use these **awesome** you'll have to `@import` the following library parts:
-
-````scss
-@import "../bootstrap/bootstrap/variables";
-@import "../bootstrap/bootstrap/mixins";
-
-@import "../font-awesome/variables";
+// Same styles as the Sass example...
 ````
 
-Adjust this to the path where your bootstrap and font-awesome files are located.
+Or for plain CSS, override the `.checkbox` class (and `.styled` class for Opera):
+````css
+input[type="checkbox"].styled:checked + label:after,
+input[type="radio"].styled:checked + label:after,
+.checkbox input[type=checkbox]:checked + label:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e013";
+}
+
+input[type="checkbox"].styled:checked label:after,
+input[type="radio"].styled:checked label:after,
+.checkbox label:after {
+    padding-left: 4px;
+    padding-top: 2px;
+    font-size: 9px;
+}
+````
 
 Credits
 ------------
 
-Based on [Official Bootstrap Sass port](https://github.com/twbs/bootstrap-sass) and awesome [Font Awesome](https://github.com/FortAwesome/Font-Awesome).
+Based on the [Official Bootstrap Sass port][Bootstrap Sass] and the awesome [Font Awesome][].
+
+
+[Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/
+[Bootstrap]: http://getbootstrap.com/
+[Bootstrap Sass]: https://github.com/twbs/bootstrap-sass
+[Font Awesome]: https://github.com/FortAwesome/Font-Awesome
+[Glyphicons]: http://getbootstrap.com/components/#glyphicons
+[Sass]: http://sass-lang.com/
+[Less]: http://lesscss.org/

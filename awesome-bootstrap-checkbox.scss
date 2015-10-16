@@ -4,6 +4,8 @@
 
 
 $font-family-icon: 'FontAwesome' !default;
+$fa-var-check: "\f00c" !default;
+$check-icon: $fa-var-check !default;
 
 @mixin checkbox-variant($parent, $color) {
   #{$parent} input[type="checkbox"]:checked + label,
@@ -68,7 +70,7 @@ $font-family-icon: 'FontAwesome' !default;
 
     &:checked + label::after{
       font-family: $font-family-icon;
-      content: $fa-var-check;
+      content: $check-icon;
     }
 
     &:disabled + label{
@@ -197,8 +199,8 @@ $font-family-icon: 'FontAwesome' !default;
 input[type="checkbox"],
 input[type="radio"] {
   &.styled:checked + label:after {
-    font-family: 'FontAwesome';
-    content: "\f00c";
+    font-family: $font-family-icon;
+    content: $check-icon;
   }
   .styled:checked + label {
     &::before {
