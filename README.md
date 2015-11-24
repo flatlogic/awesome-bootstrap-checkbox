@@ -83,7 +83,13 @@ You may use `checkbox-primary`, `checkbox-danger`, `radio-info`, etc to style ch
 
 `checkbox-circle` is for rounded checkboxes.
 
-`checkbox-single` and `radio-single` for inputs without label text.
+Inputs without label text:
+
+````html
+<div class="checkbox">
+  <input type="checkbox" class="styled" id="singleCheckbox1" value="option1" aria-label="Single checkbox One">
+</div>
+````
 
 Using [Sass][]
 ----------
