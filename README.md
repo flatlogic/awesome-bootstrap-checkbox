@@ -88,6 +88,7 @@ Inputs without label text:
 ````html
 <div class="checkbox">
   <input type="checkbox" class="styled" id="singleCheckbox1" value="option1" aria-label="Single checkbox One">
+  <label></label>
 </div>
 ````
 
