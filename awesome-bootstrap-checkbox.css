@@ -117,6 +117,58 @@
   color: #fff;
 }
 
+.checkbox.checkbox-sm label::before {
+  width: 30px;
+  height: 30px;
+  top: -13px;
+}
+.checkbox.checkbox-sm label::after {
+  width: 30px;
+  height: 30px;
+  padding-left: 4px;
+  font-size: 20px;
+  left: 1px;
+  top: -13px;
+}
+.checkbox.checkbox-sm label {
+  padding-left: 18px;
+  top: 13px;
+}
+.checkbox.checkbox-md label::before {
+  width: 34px;
+  height: 34px;
+  top: -17px;
+}
+.checkbox.checkbox-md label::after {
+  width: 34px;
+  height: 34px;
+  padding-left: 4px;
+  font-size: 24px;
+  left: 1px;
+  top: -18px;
+}
+.checkbox.checkbox-md label {
+  padding-left: 22px;
+  top: 17px;
+}
+.checkbox.checkbox-lg label::before {
+  width: 46px;
+  height: 46px;
+  top: -28px;
+}
+.checkbox.checkbox-lg label::after {
+  width: 46px;
+  height: 46px;
+  padding-left: 4px;
+  font-size: 36px;
+  left: 1px;
+  top: -31px;
+}
+.checkbox.checkbox-lg label {
+  padding-left: 34px;
+  top: 32px;
+}
+
 .radio {
   padding-left: 20px;
 }
@@ -248,4 +300,56 @@ input[type="radio"] .styled:checked + label::before {
 input[type="checkbox"] .styled:checked + label::after,
 input[type="radio"] .styled:checked + label::after {
   color: #fff;
+}
+
+.radio.radio-sm label::before {
+  width: 30px;
+  height: 30px;
+  top: -13px;
+}
+.radio.radio-sm label::after {
+  width: 22px;
+  height: 22px;
+  padding-left: 4px;
+  font-size: 20px;
+  left: 4px;
+  top: -9px;
+}
+.radio.radio-sm label {
+  padding-left: 18px;
+  top: 13px;
+}
+.radio.radio-md label::before {
+  width: 34px;
+  height: 34px;
+  top: -17px;
+}
+.radio.radio-md label::after {
+  width: 26px;
+  height: 26px;
+  padding-left: 4px;
+  font-size: 24px;
+  left: 4px;
+  top: -13px;
+}
+.radio.radio-md label {
+  padding-left: 22px;
+  top: 17px;
+}
+.radio.radio-lg label::before {
+  width: 46px;
+  height: 46px;
+  top: -28px;
+}
+.radio.radio-lg label::after {
+  width: 36px;
+  height: 36px;
+  padding-left: 4px;
+  font-size: 36px;
+  left: 5px;
+  top: -23px;
+}
+.radio.radio-lg label {
+  padding-left: 34px;
+  top: 32px;
 }
