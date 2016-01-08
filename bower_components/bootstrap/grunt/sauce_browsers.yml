@@ -17,6 +17,10 @@
   # Mac Opera not currently supported by Sauce Labs
 
   {
+    browserName: "MicrosoftEdge",
+    platform: "Windows 10"
+  },
+  {
     browserName: "internet explorer",
     version: "11",
     platform: "Windows 8.1"
@@ -31,17 +35,6 @@
     version: "9",
     platform: "Windows 7"
   },
-  {
-    browserName: "internet explorer",
-    version: "8",
-    platform: "Windows 7"
-  },
-
-  # { # Unofficial
-  #   browserName: "internet explorer",
-  #   version: "7",
-  #   platform: "Windows XP"
-  # },
 
   {
     browserName: "chrome",
@@ -56,8 +49,8 @@
 
   {
     browserName: "iphone",
-    platform: "OS X 10.9",
-    version: "8.1"
+    platform: "OS X 10.10",
+    version: "9.1"
   },
 
   # iOS Chrome not currently supported by Sauce Labs
@@ -73,10 +66,10 @@
   }
 
   # Android Chrome not currently supported by Sauce Labs
-
-  # { # Android Browser (super-unofficial)
+  # Android v5.0+ not currently supported by Sauce Labs
+  # { # Android Browser
   #   browserName: "android",
-  #   version: "4.0",
+  #   version: "5.0",
   #   platform: "Linux"
   # }
 ]

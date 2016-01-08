@@ -1,4 +1,30 @@
 //
+// Mixins
+// --------------------------------------------------
+
+
+@mixin scale($ratio...) {
+  -webkit-transform: scale($ratio);
+  -ms-transform: scale($ratio); // IE9 only
+  -o-transform: scale($ratio);
+  transform: scale($ratio);
+}
+
+@mixin transition-transform($transition...) {
+  -webkit-transition: -webkit-transform $transition;
+  -moz-transition: -moz-transform $transition;
+  -o-transition: -o-transform $transition;
+  transition: transform $transition;
+}
+
+@mixin transition($transition...) {
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+
+//
 // Checkboxes
 // --------------------------------------------------
 
@@ -38,7 +64,7 @@ $check-icon: $fa-var-check !default;
       height: 17px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid $input-border;
+      border: 1px solid $input-border-color;
       border-radius: 3px;
       background-color: #fff;
       @include transition(border 0.15s ease-in-out, color 0.15s ease-in-out);
@@ -138,7 +164,7 @@ $check-icon: $fa-var-check !default;
       height: 17px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid $input-border;
+      border: 1px solid $input-border-color;
       border-radius: 50%;
       background-color: #fff;
       @include transition(border 0.15s ease-in-out);
