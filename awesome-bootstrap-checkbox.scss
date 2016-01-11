@@ -21,6 +21,18 @@ $check-icon: $fa-var-check !default;
   }
 }
 
+@mixin checkbox-variant-indeterminate($parent, $color) {
+  #{$parent} input[type="checkbox"]:indeterminate + label,
+  #{$parent} input[type="radio"]:indeterminate + label {
+    &::before {
+      background-color: $color;
+      border-color: $color;
+    }
+    &::after{
+      background-color: #fff;
+    }
+  }
+}
 
 .abc-checkbox{
   padding-left: 20px;
@@ -74,6 +86,17 @@ $check-icon: $fa-var-check !default;
       content: $check-icon;
     }
 
+    &:indeterminate + label::after{
+      display: block;
+      content: "";
+      width: 10px;
+      height: 3px;
+      background-color: #555555;
+      border-radius: 2px;
+      margin-left: -16.5px;
+      margin-top: 7px;
+    }
+
     &:disabled + label{
       opacity: 0.65;
 
@@ -99,6 +122,13 @@ $check-icon: $fa-var-check !default;
 @include checkbox-variant('.abc-checkbox-info', $brand-info);
 @include checkbox-variant('.abc-checkbox-warning', $brand-warning);
 @include checkbox-variant('.abc-checkbox-success', $brand-success);
+
+
+@include checkbox-variant-indeterminate('.abc-checkbox-primary', $brand-primary);
+@include checkbox-variant-indeterminate('.abc-checkbox-danger', $brand-danger);
+@include checkbox-variant-indeterminate('.abc-checkbox-info', $brand-info);
+@include checkbox-variant-indeterminate('.abc-checkbox-warning', $brand-warning);
+@include checkbox-variant-indeterminate('.abc-checkbox-success', $brand-success);
 
 //
 // Radios
