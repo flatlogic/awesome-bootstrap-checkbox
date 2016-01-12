@@ -27,7 +27,7 @@ We have to alter it a bit:
 ````html
 <form role="form">
   ...
-  <div class="checkbox">
+  <div class="checkbox abc-checkbox">
     <input type="checkbox" id="checkbox1">
     <label for="checkbox1">
         Check me out
@@ -60,13 +60,13 @@ It's the same for radios. Markup has to be the following:
 ````html
 <form role="form">
   ...
-  <div class="radio">
+  <div class="radio abc-radio">
       <input type="radio" name="radio2" id="radio3" value="option1">
       <label for="radio3">
           One
       </label>
   </div>
-  <div class="radio">
+  <div class="radio abc-radio">
       <input type="radio" name="radio2" id="radio4" value="option2" checked>
       <label for="radio4">
           Two
@@ -79,22 +79,22 @@ It's the same for radios. Markup has to be the following:
 Brand Colors and other features
 ------------
 
-You may use `checkbox-primary`, `checkbox-danger`, `radio-info`, etc to style checkboxes and radios with brand bootstrap colors.
+You may use `abc-checkbox-primary`, `abc-checkbox-danger`, `abc-radio-info`, etc to style checkboxes and radios with brand bootstrap colors.
 
-`checkbox-circle` is for rounded checkboxes.
+`abc-checkbox-circle` is for rounded checkboxes.
 
-`checkbox-single` and `radio-single` for inputs without label text.
+`abc-checkbox-single` and `abc-radio-single` for inputs without label text.
 
 Glyphicons way (Opt-out Font Awesome)
 ------------
 
-If you want to use glyphicons instead of font-awesome then override `.checkbox` class:
+If you want to use glyphicons instead of font-awesome then override `.abc-checkbox` class:
 ````css
-.checkbox input[type=checkbox]:checked + label:after {
+.abc-checkbox input[type=checkbox]:checked + label:after {
     font-family: 'Glyphicons Halflings';
     content: "\e013";
 }
-.checkbox label:after {
+.abc-checkbox label:after {
     padding-left: 4px;
     padding-top: 2px;
     font-size: 9px;
