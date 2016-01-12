@@ -136,7 +136,7 @@
 }
 .abc-checkbox-primary input[type="checkbox"]:indeterminate + label::after,
 .abc-checkbox-primary input[type="radio"]:indeterminate + label::after {
-  color: #fff;
+  background-color: #fff;
 }
 
 .abc-checkbox-danger input[type="checkbox"]:indeterminate + label::before,
@@ -146,7 +146,7 @@
 }
 .abc-checkbox-danger input[type="checkbox"]:indeterminate + label::after,
 .abc-checkbox-danger input[type="radio"]:indeterminate + label::after {
-  color: #fff;
+  background-color: #fff;
 }
 
 .abc-checkbox-info input[type="checkbox"]:indeterminate + label::before,
@@ -156,7 +156,7 @@
 }
 .abc-checkbox-info input[type="checkbox"]:indeterminate + label::after,
 .abc-checkbox-info input[type="radio"]:indeterminate + label::after {
-  color: #fff;
+  background-color: #fff;
 }
 
 .abc-checkbox-warning input[type="checkbox"]:indeterminate + label::before,
@@ -166,7 +166,7 @@
 }
 .abc-checkbox-warning input[type="checkbox"]:indeterminate + label::after,
 .abc-checkbox-warning input[type="radio"]:indeterminate + label::after {
-  color: #fff;
+  background-color: #fff;
 }
 
 .abc-checkbox-success input[type="checkbox"]:indeterminate + label::before,
