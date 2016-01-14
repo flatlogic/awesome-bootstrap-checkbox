@@ -153,7 +153,7 @@ Based on the [Official Bootstrap Sass port][Bootstrap Sass] and the awesome [Fon
 
 
 [Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/
-[Bootstrap]: http://getbootstrap.com/
+[Bootstrap]: https://v4-alpha.getbootstrap.com/
 [Bootstrap Sass]: https://github.com/twbs/bootstrap-sass
 [Font Awesome]: https://github.com/FortAwesome/Font-Awesome
 [Glyphicons]: http://getbootstrap.com/components/#glyphicons
