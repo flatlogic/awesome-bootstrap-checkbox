@@ -30,13 +30,12 @@ module FontAwesome
         @assets_path ||= File.join(gem_path, 'assets')
       end
 
-      # Environment detection helpers
       def sprockets?
         defined?(::Sprockets)
       end
 
       def compass?
-        defined?(::Compass)
+        defined?(::Compass::Frameworks)
       end
 
       def rails?
@@ -55,11 +54,11 @@ module FontAwesome
         require 'font_awesome/sass/version'
 
         ::Compass::Frameworks.register(
-            'font-awesome',
-            :version               => FontAwesome::Sass::VERSION,
-            :path                  => gem_path,
-            :stylesheets_directory => stylesheets_path,
-            :templates_directory   => File.join(gem_path, 'templates')
+          'font-awesome',
+          :version               => FontAwesome::Sass::VERSION,
+          :path                  => gem_path,
+          :stylesheets_directory => stylesheets_path,
+          :templates_directory   => File.join(gem_path, 'templates')
         )
       end
 
@@ -72,7 +71,6 @@ module FontAwesome
       def register_sprockets
         Sprockets.append_path(stylesheets_path)
         Sprockets.append_path(fonts_path)
-        Sprockets.append_path(javascripts_path)
       end
     end
   end

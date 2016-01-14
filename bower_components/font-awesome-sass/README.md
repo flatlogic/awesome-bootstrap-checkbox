@@ -1,6 +1,8 @@
 # FontAwesome::Sass
 
-'font-awesome-sass' is a Sass-powered version of FontAwesome for your Ruby projects and plays nicely with 
+[![Gem Version](https://badge.fury.io/rb/font-awesome-sass.svg)](https://badge.fury.io/rb/font-awesome-sass)
+
+'font-awesome-sass' is a Sass-powered version of [FontAwesome](http://fortawesome.github.io/Font-Awesome/) for your Ruby projects and plays nicely with 
  Ruby on Rails, Compass, Sprockets, etc.
  
  Refactored to support more Ruby environments with code and documentation humbly used from the excellent
@@ -18,7 +20,7 @@ Please see the appropriate guide for your environment of choice:
 In your Gemfile include:
 
 ```ruby
-gem 'font-awesome-sass', '~> 4.3.0'
+gem 'font-awesome-sass', '~> 4.5.0'
 ```
 
 And then execute:
@@ -45,7 +47,7 @@ icon('flag')
 ```
 
 ```ruby
-icon('flag', '', class: 'strong')
+icon('flag', class: 'strong')
 # => <i class="fa fa-flag strong"></i>
 ```
 
