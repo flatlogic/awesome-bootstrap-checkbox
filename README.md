@@ -1,5 +1,7 @@
 Awesome Bootstrap Checkbox
 ==========================
+
+[![Join the chat at https://gitter.im/flatlogic/awesome-bootstrap-checkbox](https://badges.gitter.im/flatlogic/awesome-bootstrap-checkbox.svg)](https://gitter.im/flatlogic/awesome-bootstrap-checkbox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [Font Awesome][] [Bootstrap][] Checkboxes & Radios plugin. Pure CSS way to make inputs look prettier. **No Javascript!**
 
 For **[Bootstrap 4][]** checkout [v1.0.0-alpha.1][] tag!
