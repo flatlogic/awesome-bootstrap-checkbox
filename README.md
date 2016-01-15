@@ -41,13 +41,6 @@ We have to alter it a bit:
 ````
 That's it. It will work. But it **will not** work if you nest input inside label or put label before input.
 
-If you want to enable **Opera 12** and earlier support  just add class `styled` to `input` element:
-````html
-...
-<input type="checkbox" id="checkbox1" class="styled">
-...
-````
-
 Browser support
 -----------
 - Firefox (_3.6+_)
