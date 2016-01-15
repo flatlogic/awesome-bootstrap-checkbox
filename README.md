@@ -152,7 +152,7 @@ Credits
 Based on the [Official Bootstrap Sass port][Bootstrap Sass] and the awesome [Font Awesome][].
 
 
-[Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/
+[Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0-alpha.1/
 [Bootstrap]: https://v4-alpha.getbootstrap.com/
 [Bootstrap Sass]: https://github.com/twbs/bootstrap-sass
 [Font Awesome]: https://github.com/FortAwesome/Font-Awesome
