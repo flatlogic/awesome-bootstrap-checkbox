@@ -51,6 +51,11 @@
   font-family: "FontAwesome";
   content: "\f00c";
 }
+.checkbox input[type="checkbox"]:indeterminate + label::after,
+.checkbox input[type="radio"]:indeterminate + label::after {
+  font-family: "FontAwesome";
+  content: "\f068";
+}
 .checkbox input[type="checkbox"]:disabled + label,
 .checkbox input[type="radio"]:disabled + label {
   opacity: 0.65;
@@ -240,6 +245,11 @@ input[type="checkbox"].styled:checked + label:after,
 input[type="radio"].styled:checked + label:after {
   font-family: 'FontAwesome';
   content: "\f00c";
+}
+input[type="checkbox"].styled:indeterminate + label:after,
+input[type="radio"].styled:indeterminate + label:after {
+  font-family: 'FontAwesome';
+  content: "\f068";
 }
 input[type="checkbox"] .styled:checked + label::before,
 input[type="radio"] .styled:checked + label::before {
