@@ -5,6 +5,8 @@
 @font-family-icon: 'FontAwesome';
 @fa-var-check: "\f00c";
 @check-icon: @fa-var-check;
+@fa-var-indeterminate: "\f068";
+@indeterminate-icon: @fa-var-indeterminate;
 
 .checkbox-variant(@parent, @color) {
   .@{parent} input[type="checkbox"]:checked + label,
@@ -70,6 +72,11 @@
     &:checked + label::after{
       font-family: @font-family-icon;
       content: @check-icon;
+    }
+
+    &:indeterminate + label::after{
+      font-family: @font-family-icon;
+      content: @indeterminate-icon;
     }
 
     &:disabled + label{
@@ -199,6 +206,10 @@ input[type="radio"] {
   &.styled:checked + label:after {
     font-family: @font-family-icon;
     content: @check-icon;
+  }
+  &.styled:indeterminate + label:after {
+    font-family: @font-family-icon;
+    content: @indeterminate-icon;
   }
   & .styled:checked + label {
     &::before {
