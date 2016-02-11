@@ -65,6 +65,11 @@
                         <input type="checkbox" class="styled styled-primary" id="singleCheckbox2" value="option2" checked aria-label="Single checkbox Two">
                         <label></label>
                     </div>
+                    <p>Checkboxes with indeterminate state</p>
+                    <div class="checkbox checkbox-primary">
+                        <input id="indeterminateCheckbox" class="styled" type="checkbox" onclick="changeState(this)">
+                        <label></label>
+                    </div>
                     <p>Inline checkboxes</p>
                     <div class="checkbox checkbox-inline">
                         <input type="checkbox" class="styled" id="inlineCheckbox1" value="option1">
@@ -246,5 +251,11 @@
         </div>
     </form>
 </div>
+<script type="text/javascript">
+    function changeState(el) {
+        if (el.readOnly) el.checked=el.readOnly=false;
+        else if (!el.checked) el.readOnly=el.indeterminate=true;
+    }
+</script>
 </body>
 </html>
