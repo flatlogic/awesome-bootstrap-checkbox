@@ -1,6 +1,6 @@
 {
   "name": "awesome-bootstrap-checkbox",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Font Awesome Bootstrap Checkboxes & Radios. Pure css way to make inputs look prettier.",
   "main": "awesome-bootstrap-checkbox.css",
   "scripts": {
