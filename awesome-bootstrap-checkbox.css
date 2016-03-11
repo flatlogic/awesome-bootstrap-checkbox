@@ -17,12 +17,12 @@
   height: 17px;
   left: 0;
   margin-left: -20px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 3px;
   background-color: #fff;
-  -webkit-transition: "border 0.15s ease-in-out, color 0.15s ease-in-out";
-  -o-transition: "border 0.15s ease-in-out, color 0.15s ease-in-out";
-  transition: "border 0.15s ease-in-out, color 0.15s ease-in-out";
+  -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  -o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+  transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 .checkbox label::after,
 .checkbox label > span::after {
@@ -262,7 +262,7 @@
   height: 17px;
   left: 0;
   margin-left: -20px;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 50%;
   background-color: #fff;
   -webkit-transition: border 0.15s ease-in-out;
