@@ -31,6 +31,22 @@ Next, everything is based on code convention. Here is checkbox markup from Boots
 ````
 
 We have to alter it a bit:
+
+````html
+<form role="form">
+  ...
+  <div class="checkbox">
+    <label>
+      <input type="checkbox">
+      <span>Check me out</span>
+    </label>
+  </div>
+  ...
+</form>
+````
+
+Or, use an alternative form:
+
 ````html
 <form role="form">
   ...
@@ -43,7 +59,7 @@ We have to alter it a bit:
   ...
 </form>
 ````
-That's it. It will work. But it **will not** work if you nest input inside label or put label before input.
+That's it. It will work.
 
 If you want to enable **Opera 12** and earlier support  just add class `styled` to `input` element:
 ````html
@@ -63,7 +79,29 @@ Browser support
 Radios
 ------------
 
-It's the same for radios. Markup has to be the following:
+It's the same for radios. Markup has to be one of the following:
+
+````html
+<form role="form">
+  ...
+  <div class="radio">
+    <label>
+      <input type="radio" value="option1">
+      <span>One</span>
+    </label>
+  </div>
+  <div class="radio">
+    <label>
+      <input type="radio" value="option2">
+      <span>Two</span>
+    </label>
+  </div>
+  ...
+</form>
+````
+
+Or:
+
 ````html
 <form role="form">
   ...
