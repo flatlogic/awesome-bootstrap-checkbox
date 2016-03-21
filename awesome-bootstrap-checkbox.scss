@@ -74,6 +74,7 @@ $check-icon: $fa-var-check !default;
 
   input[type="checkbox"],
   input[type="radio"] {
+    cursor: pointer;
     opacity: 0;
     z-index: 1;
 
@@ -194,6 +195,7 @@ $check-icon: $fa-var-check !default;
   }
 
   input[type="radio"]{
+    cursor: pointer;
     opacity: 0;
     z-index: 1;
 

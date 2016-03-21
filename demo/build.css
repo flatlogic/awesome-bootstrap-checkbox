@@ -31,6 +31,7 @@
       color: #55595c; }
   .abc-checkbox input[type="checkbox"],
   .abc-checkbox input[type="radio"] {
+    cursor: pointer;
     opacity: 0;
     z-index: 1; }
     .abc-checkbox input[type="checkbox"]:focus + label::before,
@@ -186,6 +187,7 @@
       transform: scale(0, 0);
       transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
   .abc-radio input[type="radio"] {
+    cursor: pointer;
     opacity: 0;
     z-index: 1; }
     .abc-radio input[type="radio"]:focus + label::before {
