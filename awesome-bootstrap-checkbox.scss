@@ -44,6 +44,7 @@ $check-icon: $fa-var-check !default;
     padding-left: 5px;
 
     &::before{
+      cursor: pointer;
       content: "";
       display: inline-block;
       position: absolute;
@@ -58,6 +59,7 @@ $check-icon: $fa-var-check !default;
     }
 
     &::after{
+      cursor: pointer;
       display: inline-block;
       position: absolute;
       width: 16px;
@@ -163,6 +165,7 @@ $check-icon: $fa-var-check !default;
     padding-left: 5px;
 
     &::before{
+      cursor: pointer;
       content: "";
       display: inline-block;
       position: absolute;
@@ -177,6 +180,7 @@ $check-icon: $fa-var-check !default;
     }
 
     &::after{
+      cursor: pointer;
       display: inline-block;
       position: absolute;
       content: " ";
