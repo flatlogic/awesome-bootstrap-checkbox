@@ -10,7 +10,8 @@ Awesome Bootstrap Checkbox
 
 For **[Bootstrap 4][]** checkout [v1.0.0-alpha.2][] tag!
 
-Demo：  
+
+Demo：    
 ![Alt text](/pic.png)
 
 
