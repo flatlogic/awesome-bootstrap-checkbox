@@ -15,7 +15,7 @@
       height: 17px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid @input-border;
+      border: 1px solid @checkbox-border;
       border-radius: 3px;
       background-color: #fff;
       .transition(~"border 0.15s ease-in-out, color 0.15s ease-in-out");
@@ -32,7 +32,7 @@
       padding-left: 3px;
       padding-top: 1px;
       font-size: 11px;
-      color: @input-color;
+      color: @checkbox-color;
     }
   }
 
@@ -65,7 +65,7 @@
       opacity: 0.65;
 
       &::before{
-        background-color: @input-bg-disabled;
+        background-color: @checkbox-bg-disabled;
         cursor: not-allowed;
       }
     }
@@ -81,8 +81,8 @@
   }
 }
 
-.checkbox-variant(checkbox-primary, @brand-primary);
-.checkbox-variant(checkbox-danger, @brand-danger);
-.checkbox-variant(checkbox-info, @brand-info);
-.checkbox-variant(checkbox-warning, @brand-warning);
-.checkbox-variant(checkbox-success, @brand-success);
+.checkbox-variant(checkbox-primary, @checkbox-primary);
+.checkbox-variant(checkbox-danger, @checkbox-danger);
+.checkbox-variant(checkbox-info, @checkbox-info);
+.checkbox-variant(checkbox-warning, @checkbox-warning);
+.checkbox-variant(checkbox-success, @checkbox-success);

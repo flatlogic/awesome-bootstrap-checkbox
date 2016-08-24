@@ -19,7 +19,7 @@
       height: 17px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid $input-border;
+      border: 1px solid $checkbox-border;
       border-radius: 3px;
       background-color: #fff;
       @include transition(border 0.15s ease-in-out, color 0.15s ease-in-out);
@@ -36,7 +36,7 @@
       padding-left: 3px;
       padding-top: 1px;
       font-size: 11px;
-      color: $input-color;
+      color: $checkbox-color;
     }
   }
 
@@ -69,7 +69,7 @@
       opacity: 0.65;
 
       &::before{
-        background-color: $input-bg-disabled;
+        background-color: $checkbox-bg-disabled;
         cursor: not-allowed;
       }
     }
@@ -85,8 +85,8 @@
   }
 }
 
-@include checkbox-variant('.checkbox-primary', $brand-primary);
-@include checkbox-variant('.checkbox-danger', $brand-danger);
-@include checkbox-variant('.checkbox-info', $brand-info);
-@include checkbox-variant('.checkbox-warning', $brand-warning);
-@include checkbox-variant('.checkbox-success', $brand-success);
+@include checkbox-variant('.checkbox-primary', $checkbox-primary);
+@include checkbox-variant('.checkbox-danger', $checkbox-danger);
+@include checkbox-variant('.checkbox-info', $checkbox-info);
+@include checkbox-variant('.checkbox-warning', $checkbox-warning);
+@include checkbox-variant('.checkbox-success', $checkbox-success);

@@ -19,7 +19,7 @@
       height: 17px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid $input-border;
+      border: 1px solid $checkbox-border;
       border-radius: 50%;
       background-color: #fff;
       @include transition(border 0.15s ease-in-out);
@@ -35,7 +35,7 @@
       top: 3px;
       margin-left: -20px;
       border-radius: 50%;
-      background-color: $input-color;
+      background-color: $checkbox-color;
       @include scale(0, 0);
 
       @include transition-transform(.1s cubic-bezier(.8,-0.33,.2,1.33));
@@ -70,8 +70,8 @@
   }
 }
 
-@include radio-variant('.radio-primary', $brand-primary);
-@include radio-variant('.radio-danger', $brand-danger);
-@include radio-variant('.radio-info', $brand-info);
-@include radio-variant('.radio-warning', $brand-warning);
-@include radio-variant('.radio-success', $brand-success);
+@include radio-variant('.radio-primary', $checkbox-primary);
+@include radio-variant('.radio-danger', $checkbox-danger);
+@include radio-variant('.radio-info', $checkbox-info);
+@include radio-variant('.radio-warning', $checkbox-warning);
+@include radio-variant('.radio-success', $checkbox-success);

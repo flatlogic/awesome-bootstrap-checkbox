@@ -15,7 +15,7 @@
       height: 17px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid @input-border;
+      border: 1px solid @checkbox-border;
       border-radius: 50%;
       background-color: #fff;
       .transition(border 0.15s ease-in-out);
@@ -31,7 +31,7 @@
       top: 3px;
       margin-left: -20px;
       border-radius: 50%;
-      background-color: @input-color;
+      background-color: @checkbox-color;
       .scale(0, 0);
 
       .transition-transform(.1s cubic-bezier(.8,-0.33,.2,1.33));
@@ -66,8 +66,8 @@
   }
 }
 
-.radio-variant(radio-primary, @brand-primary);
-.radio-variant(radio-danger, @brand-danger);
-.radio-variant(radio-info, @brand-info);
-.radio-variant(radio-warning, @brand-warning);
-.radio-variant(radio-success, @brand-success);
+.radio-variant(radio-primary, @checkbox-primary);
+.radio-variant(radio-danger, @checkbox-danger);
+.radio-variant(radio-info, @checkbox-info);
+.radio-variant(radio-warning, @checkbox-warning);
+.radio-variant(radio-success, @checkbox-success);
