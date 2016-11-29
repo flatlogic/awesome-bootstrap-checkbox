@@ -192,7 +192,6 @@
 
   input[type="radio"]{
     opacity: 0;
-    z-index: 1;
 
     &:focus + label::before{
       .tab-focus();
@@ -203,10 +202,10 @@
     }
 
     &:disabled + label{
+      cursor: not-allowed;
       opacity: 0.65;
 
       &::before{
-        cursor: not-allowed;
       }
     }
 
