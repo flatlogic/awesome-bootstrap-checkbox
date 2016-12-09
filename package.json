@@ -24,6 +24,8 @@
   "homepage": "https://github.com/flatlogic/awesome-bootstrap-checkbox",
   "files": [
     "demo",
+    "less",
+    "scss",
     "awesome-bootstrap-checkbox.css",
     "awesome-bootstrap-checkbox.scss",
     "awesome-bootstrap-checkbox.less",
