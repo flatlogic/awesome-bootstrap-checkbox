@@ -39,7 +39,7 @@ $check-icon: $fa-var-check !default;
 
   label{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     position: relative;
     padding-left: 5px;
 
@@ -50,6 +50,7 @@ $check-icon: $fa-var-check !default;
       position: absolute;
       width: 17px;
       height: 17px;
+      top: 2px;
       left: 0;
       margin-left: -20px;
       border: 1px solid $input-border-color;
@@ -65,7 +66,7 @@ $check-icon: $fa-var-check !default;
       width: 16px;
       height: 16px;
       left: 0;
-      top: 0;
+      top: 2px;
       margin-left: -20px;
       padding-left: 3px;
       padding-top: 1px;
@@ -160,7 +161,7 @@ $check-icon: $fa-var-check !default;
 
   label{
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     position: relative;
     padding-left: 5px;
 
@@ -171,6 +172,7 @@ $check-icon: $fa-var-check !default;
       position: absolute;
       width: 17px;
       height: 17px;
+      top: 2px;
       left: 0;
       margin-left: -20px;
       border: 1px solid $input-border-color;
@@ -187,7 +189,7 @@ $check-icon: $fa-var-check !default;
       width: 11px;
       height: 11px;
       left: 3px;
-      top: 3px;
+      top: 5px;
       margin-left: -20px;
       border-radius: 50%;
       background-color: $input-color;
