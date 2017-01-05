@@ -63,6 +63,10 @@
   margin-left: -16.5px;
   margin-top: 7px;
 }
+.checkbox input[type="checkbox"]:disabled,
+.checkbox input[type="radio"]:disabled {
+  cursor: not-allowed;
+}
 .checkbox input[type="checkbox"]:disabled + label,
 .checkbox input[type="radio"]:disabled + label {
   opacity: 0.65;
@@ -243,6 +247,9 @@
   -ms-transform: scale(1, 1);
   -o-transform: scale(1, 1);
   transform: scale(1, 1);
+}
+.radio input[type="radio"]:disabled {
+  cursor: not-allowed;
 }
 .radio input[type="radio"]:disabled + label {
   opacity: 0.65;
