@@ -1,7 +1,14 @@
 Awesome Bootstrap Checkbox
 ==========================
 
+[![NPM version](https://img.shields.io/npm/v/awesome-bootstrap-checkbox.svg?style=flat)](https://www.npmjs.com/package/awesome-bootstrap-checkbox)
+[![NPM downloads](https://img.shields.io/npm/dm/awesome-bootstrap-checkbox.svg?style=flat)](https://www.npmjs.com/package/awesome-bootstrap-checkbox)
+[![Dependency Status](https://img.shields.io/david/dev/flatlogic/awesome-bootstrap-checkbox.svg?branch=master&style=flat)](https://www.npmjs.com/package/awesome-bootstrap-checkbox)
+[![Join the chat at https://gitter.im/flatlogic/awesome-bootstrap-checkbox](https://badges.gitter.im/flatlogic/awesome-bootstrap-checkbox.svg)](https://gitter.im/flatlogic/awesome-bootstrap-checkbox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [Font Awesome][] [Bootstrap][] Checkboxes & Radios plugin. Pure CSS way to make inputs look prettier. **No Javascript!**
+
+For **[Bootstrap 4][]** checkout [v1.0.0-alpha.2][] tag!
 
 **[Demo][]**
 
@@ -83,7 +90,14 @@ You may use `checkbox-primary`, `checkbox-danger`, `radio-info`, etc to style ch
 
 `checkbox-circle` is for rounded checkboxes.
 
-`checkbox-single` and `radio-single` for inputs without label text.
+Inputs without label text:
+
+````html
+<div class="checkbox">
+  <input type="checkbox" class="styled" id="singleCheckbox1" value="option1" aria-label="Single checkbox One">
+  <label></label>
+</div>
+````
 
 Using [Sass][]
 ----------
@@ -164,6 +178,8 @@ Based on the [Official Bootstrap Sass port][Bootstrap Sass] and the awesome [Fon
 
 [Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/
 [Bootstrap]: http://getbootstrap.com/
+[Bootstrap 4]: https://v4-alpha.getbootstrap.com/
+[v1.0.0-alpha.2]: https://github.com/flatlogic/awesome-bootstrap-checkbox/releases/tag/v1.0.0-alpha.2
 [Bootstrap Sass]: https://github.com/twbs/bootstrap-sass
 [Font Awesome]: https://github.com/FortAwesome/Font-Awesome
 [Glyphicons]: http://getbootstrap.com/components/#glyphicons

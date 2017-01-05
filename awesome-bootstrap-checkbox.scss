@@ -77,6 +77,7 @@ $check-icon: $fa-var-check !default;
   input[type="radio"] {
     opacity: 0;
     z-index: 1;
+    cursor: pointer;
 
     &:focus + label::before{
       @include tab-focus();
@@ -197,6 +198,7 @@ $check-icon: $fa-var-check !default;
   input[type="radio"]{
     opacity: 0;
     z-index: 1;
+    cursor: pointer;
 
     &:focus + label::before{
       @include tab-focus();
