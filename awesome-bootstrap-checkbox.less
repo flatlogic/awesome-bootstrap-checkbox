@@ -97,6 +97,10 @@
       margin-top: 7px;
     }
 
+    &:disabled {
+      cursor: not-allowed;
+    }
+
     &:disabled + label{
       opacity: 0.65;
 
@@ -203,6 +207,10 @@
 
     &:checked + label::after{
       .scale(1, 1);
+    }
+
+    &:disabled{
+      cursor: not-allowed;
     }
 
     &:disabled + label{
