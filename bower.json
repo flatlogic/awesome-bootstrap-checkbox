@@ -14,6 +14,10 @@
     "**/.*",
     "bower_components"
   ],
+  "main": [
+    "awesome-bootstrap-checkbox.css",
+    "awesome-bootstrap-checkbox.less
+  ],
   "dependencies": {},
   "devDependencies": {
     "bootstrap-sass-official": "3.3.3",
