@@ -324,3 +324,39 @@ input[type="checkbox"] .styled:checked + label::after,
 input[type="radio"] .styled:checked + label::after {
   color: #fff;
 }
+
+.checkbox.rtl,
+.radio.rtl {
+  padding-left: 0px; 
+  padding-right: 20px; 
+}
+.checkbox.rtl label,
+.radio.rtl label {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+.checkbox.rtl label::after,
+.radio.rtl label::after {
+  left: auto;
+  right: 0;
+  margin-left: 0px;
+  margin-right: -20px;
+  padding-left: 0px;
+  padding-right: 3px;
+}
+.checkbox.rtl input[type="checkbox"],
+.radio.rtl input[type="radio"] {
+  margin-left: 0px;
+}
+.checkbox.rtl label::before {
+  left: auto;
+  right: 2px;
+  margin-left: 0;
+  margin-right: -20px; 
+}
+.radio.rtl label::before {
+  left: auto;
+  right: -3px;
+  margin-left: 0;
+  margin-right: -20px; 
+}
