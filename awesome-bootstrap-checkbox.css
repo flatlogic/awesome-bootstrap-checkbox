@@ -56,6 +56,9 @@
   border-radius: 2px;
   margin-left: -16.5px;
   margin-top: 7px; }
+.abc-checkbox input[type="checkbox"]:disabled,
+.abc-checkbox input[type="radio"]:disabled {
+  cursor: not-allowed; }
 .abc-checkbox input[type="checkbox"]:disabled + label,
 .abc-checkbox input[type="radio"]:disabled + label {
   opacity: 0.65; }
