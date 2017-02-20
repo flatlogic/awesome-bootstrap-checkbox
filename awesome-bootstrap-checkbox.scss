@@ -82,7 +82,9 @@ $check-icon: $fa-var-check !default;
     z-index: 1;
 
     &:focus + label::before{
-      @include tab-focus();
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px;
     }
 
     &:checked + label::after{
@@ -210,7 +212,9 @@ $check-icon: $fa-var-check !default;
     z-index: 1;
 
     &:focus + label::before{
-      @include tab-focus();
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px;
     }
 
     &:checked + label::after{

@@ -16,7 +16,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "bootstrap": "4.0.0-alpha.2",
+    "bootstrap": "4.0.0-alpha.6",
     "font-awesome-sass": "4.5.0"
   }
 }

@@ -169,8 +169,8 @@
   position: relative;
   padding-left: 5px; }
 .abc-radio label::before {
-  content: "";
   cursor: pointer;
+  content: "";
   display: inline-block;
   position: absolute;
   width: 17px;
@@ -205,6 +205,8 @@
   outline-offset: -2px; }
 .abc-radio input[type="radio"]:checked + label::after {
   transform: scale(1, 1); }
+.abc-radio input[type="radio"]:disabled {
+  cursor: not-allowed; }
 .abc-radio input[type="radio"]:disabled + label {
   opacity: 0.65; }
 .abc-radio input[type="radio"]:disabled + label::before {
