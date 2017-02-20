@@ -1,7 +1,9 @@
 @charset "UTF-8";
 .abc-checkbox {
+  cursor: default;
   padding-left: 20px; }
   .abc-checkbox label {
+    cursor: pointer;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -56,15 +58,15 @@
       border-radius: 2px;
       margin-left: -16.5px;
       margin-top: 7px; }
-    .abc-checkbox input[type="checkbox"]:disabled,
-    .abc-checkbox input[type="radio"]:disabled {
-      cursor: not-allowed; }
     .abc-checkbox input[type="checkbox"]:disabled + label,
     .abc-checkbox input[type="radio"]:disabled + label {
       opacity: 0.65; }
       .abc-checkbox input[type="checkbox"]:disabled + label::before,
       .abc-checkbox input[type="radio"]:disabled + label::before {
         background-color: #eceeef;
+        cursor: not-allowed; }
+      .abc-checkbox input[type="checkbox"]:disabled + label::after,
+      .abc-checkbox input[type="radio"]:disabled + label::after {
         cursor: not-allowed; }
   .abc-checkbox.abc-checkbox-circle label::before {
     border-radius: 50%; }
@@ -162,8 +164,10 @@
   background-color: #fff; }
 
 .abc-radio {
+  cursor: default;
   padding-left: 20px; }
   .abc-radio label {
+    cursor: pointer;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -205,11 +209,11 @@
       outline-offset: -2px; }
     .abc-radio input[type="radio"]:checked + label::after {
       transform: scale(1, 1); }
-    .abc-radio input[type="radio"]:disabled {
-      cursor: not-allowed; }
     .abc-radio input[type="radio"]:disabled + label {
       opacity: 0.65; }
       .abc-radio input[type="radio"]:disabled + label::before {
+        cursor: not-allowed; }
+      .abc-radio input[type="radio"]:disabled + label::after {
         cursor: not-allowed; }
   .abc-radio.radio-inline {
     margin-top: 0; }

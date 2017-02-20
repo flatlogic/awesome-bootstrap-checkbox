@@ -35,9 +35,11 @@ $check-icon: $fa-var-check !default;
 }
 
 .abc-checkbox{
+  cursor: default;
   padding-left: 20px;
 
   label{
+    cursor: pointer;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -103,15 +105,15 @@ $check-icon: $fa-var-check !default;
       margin-top: 7px;
     }
 
-    &:disabled{
-      cursor: not-allowed;
-    }
-
     &:disabled + label{
       opacity: 0.65;
 
       &::before{
         background-color: $input-bg-disabled;
+        cursor: not-allowed;
+      }
+
+      &::after{
         cursor: not-allowed;
       }
     }
@@ -163,9 +165,11 @@ $check-icon: $fa-var-check !default;
 }
 
 .abc-radio{
+  cursor: default;
   padding-left: 20px;
 
   label{
+    cursor: pointer;
     display: inline-block;
     vertical-align: top;
     position: relative;
@@ -221,14 +225,14 @@ $check-icon: $fa-var-check !default;
       transform: scale(1, 1);
     }
 
-    &:disabled{
-      cursor: not-allowed;
-    }
-
     &:disabled + label{
       opacity: 0.65;
 
       &::before{
+        cursor: not-allowed;
+      }
+
+      &::after{
         cursor: not-allowed;
       }
     }
