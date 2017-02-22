@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .abc-checkbox {
   cursor: default;
-  padding-left: 20px; }
+  padding-left: 4px; }
   .abc-checkbox label {
     cursor: pointer;
     display: inline-block;
@@ -18,9 +18,10 @@
       top: 2px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid #ccc;
+      border: 1px solid rgba(0, 0, 0, 0.15);
       border-radius: 3px;
-      background-color: #fff; }
+      background-color: #fff;
+      transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
     .abc-checkbox label::after {
       cursor: pointer;
       display: inline-block;
@@ -33,7 +34,7 @@
       padding-left: 3px;
       padding-top: 1px;
       font-size: 11px;
-      color: #55595c; }
+      color: #464a4c; }
   .abc-checkbox input[type="checkbox"],
   .abc-checkbox input[type="radio"] {
     cursor: pointer;
@@ -165,7 +166,7 @@
 
 .abc-radio {
   cursor: default;
-  padding-left: 20px; }
+  padding-left: 4px; }
   .abc-radio label {
     cursor: pointer;
     display: inline-block;
@@ -182,9 +183,10 @@
       top: 2px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid #ccc;
+      border: 1px solid rgba(0, 0, 0, 0.15);
       border-radius: 50%;
-      background-color: #fff; }
+      background-color: #fff;
+      transition: border 0.15s ease-in-out; }
     .abc-radio label::after {
       cursor: pointer;
       display: inline-block;
@@ -196,7 +198,7 @@
       top: 5px;
       margin-left: -20px;
       border-radius: 50%;
-      background-color: #55595c;
+      background-color: #464a4c;
       transform: scale(0, 0);
       transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
   .abc-radio input[type="radio"] {
