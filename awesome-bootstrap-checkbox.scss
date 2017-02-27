@@ -266,3 +266,13 @@ input[type="radio"] {
     }
   }
 }
+
+.has-danger {
+  .abc-checkbox, .abc-radio {
+    label {
+      &:before {
+        border-color: $brand-danger;
+      }
+    }
+  }
+}
