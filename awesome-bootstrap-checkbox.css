@@ -4,7 +4,7 @@
   padding-left: 4px; }
 .abc-checkbox label {
   cursor: pointer;
-  display: inline-block;
+  display: inline;
   vertical-align: top;
   position: relative;
   padding-left: 5px; }
@@ -169,7 +169,7 @@
   padding-left: 4px; }
 .abc-radio label {
   cursor: pointer;
-  display: inline-block;
+  display: inline;
   vertical-align: top;
   position: relative;
   padding-left: 5px; }
