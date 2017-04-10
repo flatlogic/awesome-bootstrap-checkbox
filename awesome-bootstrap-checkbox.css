@@ -15,7 +15,7 @@
   height: 17px;
   left: 0;
   margin-left: -20px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border-radius: 3px;
   background-color: #fff;
   -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
@@ -49,13 +49,13 @@
 }
 .checkbox input[type="checkbox"]:checked + label::after,
 .checkbox input[type="radio"]:checked + label::after {
-  font-family: "FontAwesome";
+  font-family: 'FontAwesome';
   content: "\f00c";
 }
 .checkbox input[type="checkbox"]:indeterminate + label::after,
 .checkbox input[type="radio"]:indeterminate + label::after {
   display: block;
-  content: "";
+  content: " ";
   width: 10px;
   height: 3px;
   background-color: #555555;
@@ -82,7 +82,6 @@
 .checkbox.checkbox-inline {
   margin-top: 0;
 }
-
 .checkbox-primary input[type="checkbox"]:checked + label::before,
 .checkbox-primary input[type="radio"]:checked + label::before {
   background-color: #337ab7;
@@ -92,7 +91,6 @@
 .checkbox-primary input[type="radio"]:checked + label::after {
   color: #fff;
 }
-
 .checkbox-danger input[type="checkbox"]:checked + label::before,
 .checkbox-danger input[type="radio"]:checked + label::before {
   background-color: #d9534f;
@@ -102,7 +100,6 @@
 .checkbox-danger input[type="radio"]:checked + label::after {
   color: #fff;
 }
-
 .checkbox-info input[type="checkbox"]:checked + label::before,
 .checkbox-info input[type="radio"]:checked + label::before {
   background-color: #5bc0de;
@@ -112,7 +109,6 @@
 .checkbox-info input[type="radio"]:checked + label::after {
   color: #fff;
 }
-
 .checkbox-warning input[type="checkbox"]:checked + label::before,
 .checkbox-warning input[type="radio"]:checked + label::before {
   background-color: #f0ad4e;
@@ -122,7 +118,6 @@
 .checkbox-warning input[type="radio"]:checked + label::after {
   color: #fff;
 }
-
 .checkbox-success input[type="checkbox"]:checked + label::before,
 .checkbox-success input[type="radio"]:checked + label::before {
   background-color: #5cb85c;
@@ -132,62 +127,51 @@
 .checkbox-success input[type="radio"]:checked + label::after {
   color: #fff;
 }
-
 .checkbox-primary input[type="checkbox"]:indeterminate + label::before,
 .checkbox-primary input[type="radio"]:indeterminate + label::before {
   background-color: #337ab7;
   border-color: #337ab7;
 }
-
 .checkbox-primary input[type="checkbox"]:indeterminate + label::after,
 .checkbox-primary input[type="radio"]:indeterminate + label::after {
   background-color: #fff;
 }
-
 .checkbox-danger input[type="checkbox"]:indeterminate + label::before,
 .checkbox-danger input[type="radio"]:indeterminate + label::before {
   background-color: #d9534f;
   border-color: #d9534f;
 }
-
 .checkbox-danger input[type="checkbox"]:indeterminate + label::after,
 .checkbox-danger input[type="radio"]:indeterminate + label::after {
   background-color: #fff;
 }
-
 .checkbox-info input[type="checkbox"]:indeterminate + label::before,
 .checkbox-info input[type="radio"]:indeterminate + label::before {
   background-color: #5bc0de;
   border-color: #5bc0de;
 }
-
 .checkbox-info input[type="checkbox"]:indeterminate + label::after,
 .checkbox-info input[type="radio"]:indeterminate + label::after {
   background-color: #fff;
 }
-
 .checkbox-warning input[type="checkbox"]:indeterminate + label::before,
 .checkbox-warning input[type="radio"]:indeterminate + label::before {
   background-color: #f0ad4e;
   border-color: #f0ad4e;
 }
-
 .checkbox-warning input[type="checkbox"]:indeterminate + label::after,
 .checkbox-warning input[type="radio"]:indeterminate + label::after {
   background-color: #fff;
 }
-
 .checkbox-success input[type="checkbox"]:indeterminate + label::before,
 .checkbox-success input[type="radio"]:indeterminate + label::before {
   background-color: #5cb85c;
   border-color: #5cb85c;
 }
-
 .checkbox-success input[type="checkbox"]:indeterminate + label::after,
 .checkbox-success input[type="radio"]:indeterminate + label::after {
   background-color: #fff;
 }
-
 .radio {
   padding-left: 20px;
 }
@@ -205,7 +189,7 @@
   height: 17px;
   left: 0;
   margin-left: -20px;
-  border: 1px solid #cccccc;
+  border: 1px solid #ccc;
   border-radius: 50%;
   background-color: #fff;
   -webkit-transition: border 0.15s ease-in-out;
@@ -260,7 +244,6 @@
 .radio.radio-inline {
   margin-top: 0;
 }
-
 .radio-primary input[type="radio"] + label::after {
   background-color: #337ab7;
 }
@@ -270,7 +253,6 @@
 .radio-primary input[type="radio"]:checked + label::after {
   background-color: #337ab7;
 }
-
 .radio-danger input[type="radio"] + label::after {
   background-color: #d9534f;
 }
@@ -280,7 +262,6 @@
 .radio-danger input[type="radio"]:checked + label::after {
   background-color: #d9534f;
 }
-
 .radio-info input[type="radio"] + label::after {
   background-color: #5bc0de;
 }
@@ -290,7 +271,6 @@
 .radio-info input[type="radio"]:checked + label::after {
   background-color: #5bc0de;
 }
-
 .radio-warning input[type="radio"] + label::after {
   background-color: #f0ad4e;
 }
@@ -300,7 +280,6 @@
 .radio-warning input[type="radio"]:checked + label::after {
   background-color: #f0ad4e;
 }
-
 .radio-success input[type="radio"] + label::after {
   background-color: #5cb85c;
 }
@@ -310,7 +289,6 @@
 .radio-success input[type="radio"]:checked + label::after {
   background-color: #5cb85c;
 }
-
 input[type="checkbox"].styled:checked + label:after,
 input[type="radio"].styled:checked + label:after {
   font-family: 'FontAwesome';
@@ -323,4 +301,71 @@ input[type="radio"] .styled:checked + label::before {
 input[type="checkbox"] .styled:checked + label::after,
 input[type="radio"] .styled:checked + label::after {
   color: #fff;
+}
+body.rtl .checkbox,
+html.rtl .checkbox,
+html[dir=rtl] .checkbox {
+  padding-left: 0;
+  padding-right: 20px;
+}
+body.rtl .checkbox label,
+html.rtl .checkbox label,
+html[dir=rtl] .checkbox label {
+  padding-right: 5px;
+  padding-left: 20px;
+}
+body.rtl .checkbox label::before,
+html.rtl .checkbox label::before,
+html[dir=rtl] .checkbox label::before {
+  left: auto;
+  right: 0;
+  margin-left: 0;
+  margin-right: -20px;
+}
+body.rtl .checkbox label::after,
+html.rtl .checkbox label::after,
+html[dir=rtl] .checkbox label::after {
+  left: auto;
+  right: 0;
+  margin-left: 0;
+  margin-right: -20px;
+  padding-left: 0;
+  padding-right: 3px;
+}
+body.rtl .checkbox input[type="checkbox"]:indeterminate + label::after,
+html.rtl .checkbox input[type="checkbox"]:indeterminate + label::after,
+html[dir=rtl] .checkbox input[type="checkbox"]:indeterminate + label::after,
+body.rtl .checkbox input[type="radio"]:indeterminate + label::after,
+html.rtl .checkbox input[type="radio"]:indeterminate + label::after,
+html[dir=rtl] .checkbox input[type="radio"]:indeterminate + label::after {
+  margin-left: 0;
+  margin-right: -16.5px;
+}
+body.rtl .radio,
+html.rtl .radio,
+html[dir=rtl] .radio {
+  padding-left: 0;
+  padding-right: 20px;
+}
+body.rtl .radio label,
+html.rtl .radio label,
+html[dir=rtl] .radio label {
+  padding-left: 0;
+  padding-right: 5px;
+}
+body.rtl .radio label::before,
+html.rtl .radio label::before,
+html[dir=rtl] .radio label::before {
+  left: auto;
+  right: 0;
+  margin-left: 0;
+  margin-right: -20px;
+}
+body.rtl .radio label::after,
+html.rtl .radio label::after,
+html[dir=rtl] .radio label::after {
+  left: auto;
+  right: 3px;
+  margin-left: 0;
+  margin-right: -20px;
 }

@@ -1,7 +1,9 @@
 //
 // Checkboxes
 // --------------------------------------------------
-
+@import "bower_components/bootstrap/less/variables";
+@import "bower_components/bootstrap/less/mixins";
+@import "bower_components/Font-Awesome/less/variables";
 @font-family-icon: 'FontAwesome';
 @fa-var-check: "\f00c";
 @check-icon: @fa-var-check;
@@ -246,6 +248,62 @@ input[type="radio"] {
     }
     &::after {
       color: #fff;
+    }
+  }
+}
+
+body.rtl, html.rtl, html[dir=rtl]{
+  .checkbox{
+    padding-left: 0;
+    padding-right: 20px;
+    label{
+      padding-right: 5px;
+      padding-left: 20px;
+      &::before{
+        left: auto;
+        right:0;
+        margin-left: 0;
+        margin-right: -20px;
+      }
+
+      &::after{
+        left:auto;
+        right: 0;
+        margin-left: 0;
+        margin-right: -20px;
+        padding-left: 0;
+        padding-right: 3px;
+      }
+    }
+    input[type="checkbox"],
+    input[type="radio"]{
+      &:indeterminate + label::after{
+        margin-left: 0;
+        margin-right: -16.5px;
+      }
+    }
+  }
+  .radio{
+    padding-left: 0;
+    padding-right: 20px;
+
+    label{
+      padding-left: 0;
+      padding-right: 5px;
+
+      &::before{
+        left: auto;
+        right: 0;
+        margin-left: 0;
+        margin-right: -20px;
+      }
+
+      &::after{
+        left: auto;
+        right: 3px;
+        margin-left: 0;
+        margin-right: -20px;
+      }
     }
   }
 }
