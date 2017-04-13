@@ -34,6 +34,7 @@
   padding-top: 1px;
   font-size: 11px;
   color: #555555;
+  line-height: 1.4;
 }
 .checkbox input[type="checkbox"],
 .checkbox input[type="radio"] {
