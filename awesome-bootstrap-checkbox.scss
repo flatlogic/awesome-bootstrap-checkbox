@@ -109,7 +109,7 @@ $check-icon: $fa-var-check !default;
       opacity: 0.65;
 
       &::before{
-        background-color: $input-bg-disabled;
+        background-color: $input-disabled-bg;
         cursor: not-allowed;
       }
 
@@ -129,18 +129,18 @@ $check-icon: $fa-var-check !default;
   }
 }
 
-@include checkbox-variant('.abc-checkbox-primary', $brand-primary);
-@include checkbox-variant('.abc-checkbox-danger', $brand-danger);
-@include checkbox-variant('.abc-checkbox-info', $brand-info);
-@include checkbox-variant('.abc-checkbox-warning', $brand-warning);
-@include checkbox-variant('.abc-checkbox-success', $brand-success);
+@include checkbox-variant('.abc-checkbox-primary', theme-color("primary"));
+@include checkbox-variant('.abc-checkbox-danger', theme-color("danger"));
+@include checkbox-variant('.abc-checkbox-info', theme-color("info"));
+@include checkbox-variant('.abc-checkbox-warning', theme-color("warning"));
+@include checkbox-variant('.abc-checkbox-success', theme-color("success"));
 
 
-@include checkbox-variant-indeterminate('.abc-checkbox-primary', $brand-primary);
-@include checkbox-variant-indeterminate('.abc-checkbox-danger', $brand-danger);
-@include checkbox-variant-indeterminate('.abc-checkbox-info', $brand-info);
-@include checkbox-variant-indeterminate('.abc-checkbox-warning', $brand-warning);
-@include checkbox-variant-indeterminate('.abc-checkbox-success', $brand-success);
+@include checkbox-variant-indeterminate('.abc-checkbox-primary', theme-color("primary"));
+@include checkbox-variant-indeterminate('.abc-checkbox-danger', theme-color("danger"));
+@include checkbox-variant-indeterminate('.abc-checkbox-info', theme-color("info"));
+@include checkbox-variant-indeterminate('.abc-checkbox-warning', theme-color("warning"));
+@include checkbox-variant-indeterminate('.abc-checkbox-success', theme-color("success"));
 
 //
 // Radios
@@ -244,11 +244,11 @@ $check-icon: $fa-var-check !default;
   }
 }
 
-@include radio-variant('.abc-radio-primary', $brand-primary);
-@include radio-variant('.abc-radio-danger', $brand-danger);
-@include radio-variant('.abc-radio-info', $brand-info);
-@include radio-variant('.abc-radio-warning', $brand-warning);
-@include radio-variant('.abc-radio-success', $brand-success);
+@include radio-variant('.abc-radio-primary', theme-color("primary"));
+@include radio-variant('.abc-radio-danger', theme-color("danger"));
+@include radio-variant('.abc-radio-info', theme-color("info"));
+@include radio-variant('.abc-radio-warning', theme-color("warning"));
+@include radio-variant('.abc-radio-success', theme-color("success"));
 
 
 input[type="checkbox"],
@@ -271,7 +271,7 @@ input[type="radio"] {
   .abc-checkbox, .abc-radio {
     label {
       &:before {
-        border-color: $brand-danger;
+        border-color: theme-color("danger");
       }
     }
   }
