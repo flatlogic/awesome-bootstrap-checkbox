@@ -58,7 +58,7 @@ $check-icon: $fa-var-check !default;
       margin-left: -20px;
       border: 1px solid $input-border;
       border-radius: 3px;
-      background-color: #fff;
+      background-color: $input-bg;
       @include transition(border 0.15s ease-in-out, color 0.15s ease-in-out);
     }
 
@@ -74,6 +74,7 @@ $check-icon: $fa-var-check !default;
       padding-top: 1px;
       font-size: 11px;
       color: $input-color;
+      line-height: 1.4;
     }
   }
 
@@ -81,6 +82,7 @@ $check-icon: $fa-var-check !default;
   input[type="radio"] {
     opacity: 0;
     z-index: 1;
+    cursor: pointer;
 
     &:focus + label::before,
     &:focus + input + label::before {
@@ -103,6 +105,10 @@ $check-icon: $fa-var-check !default;
       border-radius: 2px;
       margin-left: -16.5px;
       margin-top: 7px;
+    }
+
+    &:disabled{
+      cursor: not-allowed;
     }
 
     &:disabled + label,
@@ -182,7 +188,7 @@ $check-icon: $fa-var-check !default;
       margin-left: -20px;
       border: 1px solid $input-border;
       border-radius: 50%;
-      background-color: #fff;
+      background-color: $input-bg;
       @include transition(border 0.15s ease-in-out);
     }
 
@@ -207,6 +213,7 @@ $check-icon: $fa-var-check !default;
   input[type="radio"]{
     opacity: 0;
     z-index: 1;
+    cursor: pointer;
 
     &:focus + label::before, 
     &:focus + input + label::before {
@@ -216,6 +223,10 @@ $check-icon: $fa-var-check !default;
     &:checked + label::after, 
     &:checked + input + label::after {
       @include scale(1, 1);
+    }
+
+    &:disabled{
+      cursor: not-allowed;
     }
 
     &:disabled + label, 
