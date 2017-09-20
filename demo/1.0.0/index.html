@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>awesome bootstrap checkbox demo</title>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="build.css"/>
+</head>
+<body>
+<div class="container my-5">
+    <h1 class="text-center">Awesome Bootstrap Checkbox v1.0.0</h1>
+    <p class="lead text-center">Pure CSS way to make inputs look prettier
+        <br>with <a href="https://getbootstrap.com/" target="_blank" rel="nofollow">Bootstrap 4.0.0-beta</a> support and <strong><strong>No Javascript!</strong></strong></p>
+    <h2 class="mt-5">Checkboxes</h2>
+    <form role="form">
+        <div class="row">
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Basic
+                    </legend>
+                    <p>
+                        Supports bootstrap theme colors: <code>.abc-checkbox-primary</code>, <code>.abc-checkbox-info</code> etc.
+                    </p>
+                    <div class="form-check abc-checkbox">
+                        <input class="form-check-input" id="checkbox1" type="checkbox">
+                        <label class="form-check-label" for="checkbox1">
+                            Default
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-primary">
+                        <input class="form-check-input" id="checkbox2" type="checkbox" checked>
+                        <label class="form-check-label" for="checkbox2">
+                            Primary
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-success">
+                        <input class="form-check-input" id="checkbox3" type="checkbox">
+                        <label class="form-check-label" for="checkbox3">
+                            Success
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-info">
+                        <input class="form-check-input" id="checkbox4" type="checkbox">
+                        <label class="form-check-label" for="checkbox4">
+                            Info
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-warning">
+                        <input class="form-check-input" id="checkbox5" type="checkbox" checked>
+                        <label class="form-check-label" for="checkbox5">
+                            Warning
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-danger">
+                        <input class="form-check-input" id="checkbox6" type="checkbox" checked>
+                        <label class="form-check-label" for="checkbox6">
+                            Check me out
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Circled
+                    </legend>
+                    <p>
+                        <code>.abc-checkbox-circle</code> for roundness.
+                    </p>
+                    <div class="form-check abc-checkbox abc-checkbox-circle">
+                        <input class="form-check-input" id="checkbox7" type="checkbox">
+                        <label class="form-check-label" for="checkbox7">
+                            Simply Rounded
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-info abc-checkbox-circle">
+                        <input class="form-check-input" id="checkbox8" type="checkbox" checked>
+                        <label class="form-check-label" for="checkbox8">
+                            Me too
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Disabled
+                    </legend>
+                    <p>
+                        Disabled state also supported.
+                    </p>
+                    <div class="form-check abc-checkbox">
+                        <input class="form-check-input" id="checkbox9" type="checkbox" disabled>
+                        <label class="form-check-label" for="checkbox9">
+                            Can't check this
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-success">
+                        <input class="form-check-input" id="checkbox10" type="checkbox" disabled checked>
+                        <label class="form-check-label" for="checkbox10">
+                            This too
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-warning abc-checkbox-circle">
+                        <input class="form-check-input" id="checkbox11" type="checkbox" disabled checked>
+                        <label class="form-check-label" for="checkbox11">
+                            And this
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Without label text
+                    </legend>
+                    <div class="form-check abc-checkbox">
+                        <input class="form-check-input" type="checkbox" id="singleCheckbox1" value="option1" aria-label="Single checkbox One">
+                        <label class="form-check-label" for="singleCheckbox1"></label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-primary">
+                        <input class="form-check-input" type="checkbox" id="singleCheckbox2" value="option2" checked aria-label="Single checkbox Two">
+                        <label class="form-check-label" for="singleCheckbox2"></label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Indeterminate state
+                    </legend>
+                    <div class="form-check abc-checkbox abc-checkbox-primary">
+                        <input class="form-check-input" id="indeterminateCheckbox" type="checkbox" onclick="changeState(this)">
+                        <label class="form-check-label" for="indeterminateCheckbox"></label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Inline checkboxes
+                    </legend>
+                    <div class="form-check abc-checkbox form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1"> One </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-success form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option1" checked>
+                        <label class="form-check-label" for="inlineCheckbox2"> Two </label>
+                    </div>
+                    <div class="form-check abc-checkbox form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox3"> Three </label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </form>
+    <h2 class="mt-5">Radios</h2>
+    <form role="form">
+        <div class="row">
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Basic
+                    </legend>
+                    <p>
+                        Supports bootstrap theme colors: <code>.abc-radio-primary</code>, <code>.abc-radio-danger</code> etc.
+                    </p>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-check abc-radio">
+                                <input class="form-check-input" type="radio" name="radio1" id="radio1" value="option1" checked>
+                                <label class="form-check-label" for="radio1">
+                                    Small
+                                </label>
+                            </div>
+                            <div class="form-check abc-radio">
+                                <input class="form-check-input" type="radio" name="radio1" id="radio2" value="option2">
+                                <label class="form-check-label" for="radio2">
+                                    Big
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-check abc-radio abc-radio-danger">
+                                <input class="form-check-input" type="radio" name="radio2" id="radio3" value="option1">
+                                <label class="form-check-label" for="radio3">
+                                    Next
+                                </label>
+                            </div>
+                            <div class="form-check abc-radio abc-radio-danger">
+                                <input class="form-check-input" type="radio" name="radio2" id="radio4" value="option2" checked>
+                                <label class="form-check-label" for="radio4">
+                                    One
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Disabled
+                    </legend>
+                    <p>
+                        Disabled state also supported.
+                    </p>
+                    <div class="form-check abc-radio abc-radio-danger">
+                        <input class="form-check-input" type="radio" name="radio3" id="radio5" value="option1" disabled>
+                        <label class="form-check-label" for="radio5">
+                            Next
+                        </label>
+                    </div>
+                    <div class="form-check abc-radio">
+                        <input class="form-check-input" type="radio" name="radio3" id="radio6" value="option2" checked disabled>
+                        <label class="form-check-label" for="radio6">
+                            One
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        As Checkboxes
+                    </legend>
+                    <p>
+                        Radios can be made to look like checkboxes.
+                    </p>
+                    <div class="form-check abc-checkbox abc-checkbox">
+                        <input class="form-check-input" type="radio" name="radio4" id="radio7" value="option1" checked>
+                        <label class="form-check-label" for="radio7">
+                            Default
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-success">
+                        <input class="form-check-input" type="radio" name="radio4" id="radio8" value="option2">
+                        <label class="form-check-label" for="radio8">
+                            Success
+                        </label>
+                    </div>
+                    <div class="form-check abc-checkbox abc-checkbox-danger">
+                        <input class="form-check-input" type="radio" name="radio4" id="radio9" value="option3">
+                        <label class="form-check-label" for="radio9">
+                            Danger
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Without label text
+                    </legend>
+                    <div class="form-check abc-radio">
+                        <input class="form-check-input" type="radio" id="singleRadio1" value="option1" name="radioSingle1" aria-label="Single radio One">
+                        <label class="form-check-label" for="singleRadio1"></label>
+                    </div>
+                    <div class="form-check abc-radio abc-radio-success">
+                        <input class="form-check-input" type="radio" id="singleRadio2" value="option2" name="radioSingle1" checked aria-label="Single radio Two">
+                        <label class="form-check-label" for="singleRadio2"></label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="col-md-4">
+                <fieldset>
+                    <legend>
+                        Inline radios
+                    </legend>
+                    <div class="form-check abc-radio abc-radio-info form-check-inline">
+                        <input class="form-check-input" type="radio" id="inlineRadio1" value="option1" name="radioInline" checked>
+                        <label class="form-check-label" for="inlineRadio1"> Inline One </label>
+                    </div>
+                    <div class="form-check abc-radio form-check-inline">
+                        <input class="form-check-input" type="radio" id="inlineRadio2" value="option2" name="radioInline">
+                        <label class="form-check-label" for="inlineRadio2"> Inline Two </label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </form>
+</div>
+<script type="text/javascript">
+    function changeState(el) {
+        if (el.readOnly) el.checked=el.readOnly=false;
+        else if (!el.checked) el.readOnly=el.indeterminate=true;
+    }
+</script>
+</body>
+</html>
