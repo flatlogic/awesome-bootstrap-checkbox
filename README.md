@@ -8,7 +8,7 @@ Awesome Bootstrap Checkbox
 
 [Font Awesome][] [Bootstrap][] Checkboxes & Radios plugin. Pure CSS way to make inputs look prettier. **No Javascript!**
 
-For **[Bootstrap 4][]** checkout [v1.0.0-alpha.2][] tag!
+For **[Bootstrap 4 Beta version][]** please checkout [bump-to-bootstrap4][] branch!
 
 **[Demo][]**
 
@@ -178,8 +178,8 @@ Based on the [Official Bootstrap Sass port][Bootstrap Sass] and the awesome [Fon
 
 [Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/
 [Bootstrap]: http://getbootstrap.com/
-[Bootstrap 4]: https://v4-alpha.getbootstrap.com/
-[v1.0.0-alpha.2]: https://github.com/flatlogic/awesome-bootstrap-checkbox/releases/tag/v1.0.0-alpha.2
+[Bootstrap 4 Beta version]: https://getbootstrap.com/
+[bump-to-bootstrap4]: https://github.com/flatlogic/awesome-bootstrap-checkbox/tree/bump-to-bootstrap4
 [Bootstrap Sass]: https://github.com/twbs/bootstrap-sass
 [Font Awesome]: https://github.com/FortAwesome/Font-Awesome
 [Glyphicons]: http://getbootstrap.com/components/#glyphicons
