@@ -6,6 +6,8 @@ Awesome Bootstrap Checkbox
 
 [Font Awesome][] [Bootstrap][] Checkboxes & Radios plugin. Pure CSS way to make inputs look prettier. **No Javascript!**
 
+Now with **[Bootstrap 4 Beta][]** support!
+
 **[Demo][]**
 
 Use
@@ -17,9 +19,10 @@ Next, everything is based on code convention. Here is checkbox markup from Boots
 ````html
 <form role="form">
   ...
-  <div class="checkbox">
-    <label>
-      <input type="checkbox"> Check me out
+  <div class="form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox">
+      Check me out
     </label>
   </div>
   ...
@@ -30,10 +33,10 @@ We have to alter it a bit:
 ````html
 <form role="form">
   ...
-  <div class="checkbox abc-checkbox">
-    <input type="checkbox" id="checkbox1">
-    <label for="checkbox1">
-        Check me out
+  <div class="form-check abc-checkbox">
+    <input class="form-check-input" id="checkbox1" type="checkbox">
+    <label class="form-check-label" for="checkbox1">
+      Check me out
     </label>
   </div>
   ...
@@ -56,17 +59,17 @@ It's the same for radios. Markup has to be the following:
 ````html
 <form role="form">
   ...
-  <div class="radio abc-radio">
-      <input type="radio" name="radio2" id="radio3" value="option1">
-      <label for="radio3">
-          One
-      </label>
+  <div class="form-check abc-radio">
+    <input class="form-check-input" type="radio" name="radio1" id="radio1" value="option1" checked>
+    <label class="form-check-label" for="radio1">
+      One
+    </label>
   </div>
-  <div class="radio abc-radio">
-      <input type="radio" name="radio2" id="radio4" value="option2" checked>
-      <label for="radio4">
-          Two
-      </label>
+  <div class="form-check abc-radio">
+    <input class="form-check-input" type="radio" name="radio1" id="radio2" value="option2">
+    <label class="form-check-label" for="radio2">
+      Two
+    </label>
   </div>
   ...
 </form>
@@ -79,27 +82,26 @@ You may use `abc-checkbox-primary`, `abc-checkbox-danger`, `abc-radio-info`, etc
 
 `abc-checkbox-circle` is for rounded checkboxes.
 
-`abc-checkbox-single` and `abc-radio-single` for inputs without label text.
-
 Inputs without label text:
 
 ````html
-<div class="checkbox abc-checkbox">
-  <input type="checkbox" class="styled" id="singleCheckbox" value="option1" aria-label="Single checkbox One">
-  <label for="singleCheckbox"></label>
+<div class="form-check abc-checkbox">
+  <input class="form-check-input" type="checkbox" id="singleCheckbox" value="option1" aria-label="Single checkbox One">
+  <label class="form-check-label" for="singleCheckbox"></label>
 </div>
 ````
 
 Using [Sass][]
 ----------
 
-As per example in the `demo` folder, to use Font Awesome you'll have to `@import` the following library parts:
+As per example in the `demo` folder, to use Awesome Bootstrap Checkbox you'll have to `@import` the following library parts:
 
 ````scss
-@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/variables";
-@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
 
-@import "../bower_components/Font-Awesome/scss/variables";
+@import "../node_modules/Font-Awesome/scss/variables";
 
 @import "../awesome-bootstrap-checkbox";
 ````
@@ -121,17 +123,13 @@ $check-icon: "\e013";
 }
 ````
 
-Or for plain CSS, override the `.abc-checkbox` class (and `.styled` class for Opera):
+Or for plain CSS, override the `.abc-checkbox` class:
 ````css
-input[type="checkbox"].styled:checked + label:after,
-input[type="radio"].styled:checked + label:after,
 .abc-checkbox input[type=checkbox]:checked + label:after {
     font-family: 'Glyphicons Halflings';
     content: "\e013";
 }
 
-input[type="checkbox"].styled:checked label:after,
-input[type="radio"].styled:checked label:after,
 .abc-checkbox label:after {
     padding-left: 4px;
     padding-top: 2px;
@@ -142,12 +140,12 @@ input[type="radio"].styled:checked label:after,
 Credits
 ------------
 
-Based on the [Official Bootstrap Sass port][Bootstrap Sass] and the awesome [Font Awesome][].
+Based on the [Bootstrap][] and the awesome [Font Awesome][].
 
 
 [Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0-alpha.1/
-[Bootstrap]: https://v4-alpha.getbootstrap.com/
-[Bootstrap Sass]: https://github.com/twbs/bootstrap-sass
+[Bootstrap]: http://getbootstrap.com/
+[Bootstrap 4 Beta]: http://getbootstrap.com/
 [Font Awesome]: https://github.com/FortAwesome/Font-Awesome
 [Glyphicons]: http://getbootstrap.com/components/#glyphicons
 [Sass]: http://sass-lang.com/
