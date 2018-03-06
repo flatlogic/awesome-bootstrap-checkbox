@@ -18,7 +18,7 @@
       top: 2px;
       left: 0;
       margin-left: -1.25rem;
-      border: 1px solid rgba(0, 0, 0, 0.15);
+      border: 1px solid #ced4da;
       border-radius: 3px;
       background-color: #fff;
       transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
@@ -175,7 +175,7 @@
       top: 2px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid rgba(0, 0, 0, 0.15);
+      border: 1px solid #ced4da;
       border-radius: 50%;
       background-color: #fff;
       transition: border 0.15s ease-in-out; }
