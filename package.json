@@ -28,7 +28,7 @@
     "bower.json"
   ],
   "devDependencies": {
-    "bootstrap": "4.0.0-beta",
-    "font-awesome": "4.7.0"
+    "bootstrap": "4.0.0",
+    "font-awesome": "5.0.8"
   }
 }

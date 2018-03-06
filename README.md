@@ -6,7 +6,7 @@ Awesome Bootstrap Checkbox
 
 [Font Awesome][] [Bootstrap][] Checkboxes & Radios plugin. Pure CSS way to make inputs look prettier. **No Javascript!**
 
-Now with **[Bootstrap 4 Beta][]** support!
+Now with **[Bootstrap 4][]** support!
 
 **[Demo][]**
 
