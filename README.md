@@ -8,14 +8,22 @@ Awesome Bootstrap Checkbox
 
 [Font Awesome][] [Bootstrap][] Checkboxes & Radios plugin. Pure CSS way to make inputs look prettier. **No Javascript!**
 
-For **[Bootstrap 4 Beta version][]** please checkout [bump-to-bootstrap4][] branch!
+For **[Bootstrap 4 version][]** please checkout [bump-to-bootstrap4][] branch!
 
 **[Demo][]**
 
 Use
 ------------
 
-First just include **awesome-bootstrap-checkbox.css** somewhere in your HTML, or add the equivalent files to your [Sass](#using-sass) / [Less](#using-less) configuration.
+To install latest via NPM simply run
+```shell
+$ npm install awesome-bootstrap-checkbox # for Bootstrap 4 version
+$ npm install awesome-bootstrap-checkbox@0.3.7 # for Bootstrap 3 version
+```
+
+There is a separate [README.md][] file for **[Bootstrap 4 version][]**.
+
+Then just include **awesome-bootstrap-checkbox.css** somewhere in your HTML, or add the equivalent files to your [Sass](#using-sass) / [Less](#using-less) configuration.
 Next, everything is based on code convention. Here is checkbox markup from Bootstrap site:
 
 ````html
@@ -178,10 +186,11 @@ Based on the [Official Bootstrap Sass port][Bootstrap Sass] and the awesome [Fon
 
 [Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/
 [Bootstrap]: http://getbootstrap.com/
-[Bootstrap 4 Beta version]: https://getbootstrap.com/
+[Bootstrap 4 version]: https://getbootstrap.com/
 [bump-to-bootstrap4]: https://github.com/flatlogic/awesome-bootstrap-checkbox/tree/bump-to-bootstrap4
 [Bootstrap Sass]: https://github.com/twbs/bootstrap-sass
 [Font Awesome]: https://github.com/FortAwesome/Font-Awesome
 [Glyphicons]: http://getbootstrap.com/components/#glyphicons
 [Sass]: http://sass-lang.com/
 [Less]: http://lesscss.org/
+[README.md]: https://github.com/flatlogic/awesome-bootstrap-checkbox/tree/bump-to-bootstrap4
