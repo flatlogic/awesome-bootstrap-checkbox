@@ -145,7 +145,7 @@ Based on the [Bootstrap][] and the awesome [Font Awesome][].
 
 [Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0/
 [Bootstrap]: http://getbootstrap.com/
-[Bootstrap 4 Beta]: http://getbootstrap.com/
+[Bootstrap 4]: http://getbootstrap.com/
 [Font Awesome]: https://github.com/FortAwesome/Font-Awesome
 [Glyphicons]: http://getbootstrap.com/components/#glyphicons
 [Sass]: http://sass-lang.com/
