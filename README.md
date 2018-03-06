@@ -15,7 +15,7 @@ For **[Bootstrap 4 version][]** please checkout [bump-to-bootstrap4][] branch!
 Use
 ------------
 
-To install latest via NPM simply run
+To install latest version via NPM simply run:
 ```shell
 $ npm install awesome-bootstrap-checkbox # for Bootstrap 4 version
 $ npm install awesome-bootstrap-checkbox@0.3.7 # for Bootstrap 3 version
