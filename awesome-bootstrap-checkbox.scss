@@ -4,7 +4,7 @@
 // --------------------------------------------------
 
 
-$font-family-icon: 'FontAwesome' !default;
+$font-family-icon: 'Font Awesome\ 5 Free' !default;
 $fa-var-check: "\f00c" !default;
 $check-icon: $fa-var-check !default;
 
@@ -70,7 +70,7 @@ $check-icon: $fa-var-check !default;
       left: 0;
       top: 2px;
       margin-left: -$form-check-input-gutter;
-      padding-left: 3px;
+      padding-left: 0;
       padding-top: 1px;
       font-size: 11px;
       color: $input-color;
@@ -94,6 +94,7 @@ $check-icon: $fa-var-check !default;
     &:checked + label::after{
       font-family: $font-family-icon;
       content: $check-icon;
+      font-weight:600;
     }
 
     &:indeterminate + label::after{
