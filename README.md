@@ -178,6 +178,13 @@ input[type="radio"].styled:checked label:after,
 }
 ````
 
+How can I support developers?
+------------------------------
+- Star our GitHub repo :star:
+- Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
+- Follow us on [Twitter](https://twitter.com/flatlogic) :feet:
+- Like our page on [Facebook](https://www.facebook.com/flatlogic/) :thumbsup:
+
 Credits
 ------------
 
