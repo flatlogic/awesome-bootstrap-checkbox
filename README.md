@@ -185,6 +185,11 @@ How can I support developers?
 - Follow us on [Twitter](https://twitter.com/flatlogic) :feet:
 - Like our page on [Facebook](https://www.facebook.com/flatlogic/) :thumbsup:
 
+More from Flatlogic
+------------------------------
+- [React Native Starter](https://github.com/flatlogic/react-native-starter) - 🚀 A powerful react native starter template that bootstraps development of your mobile application 
+- [Sing App Dashboard](https://github.com/flatlogic/sing-app) - 💥Free and open-source admin dashboard template built with Bootstrap 4 
+
 Credits
 ------------
 
