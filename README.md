@@ -12,6 +12,10 @@ For **[Bootstrap 4 version][]** please checkout [bump-to-bootstrap4][] branch!
 
 **[Demo][]**
 
+Check out our admin template dashboards
+-----------
+[Flatlogic Dashboards](https://flatlogic.com/admin-dashboards) - 💥Free and open-source admin dashboard templates built with Bootstrap 4, React, Vue and Angular 
+
 Use
 ------------
 
