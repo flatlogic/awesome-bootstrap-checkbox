@@ -18,10 +18,13 @@
       top: 2px;
       left: 0;
       margin-left: -1.25rem;
-      border: 1px solid #ced4da;
+      border: 5px solid #ced4da;
       border-radius: 3px;
       background-color: #fff;
       transition: border 0.15s ease-in-out, color 0.15s ease-in-out; }
+      @media (prefers-reduced-motion: reduce) {
+        .abc-checkbox label::before {
+          transition: none; } }
     .abc-checkbox label::after {
       cursor: pointer;
       display: inline-block;
@@ -175,10 +178,13 @@
       top: 2px;
       left: 0;
       margin-left: -20px;
-      border: 1px solid #ced4da;
+      border: 5px solid #ced4da;
       border-radius: 50%;
       background-color: #fff;
       transition: border 0.15s ease-in-out; }
+      @media (prefers-reduced-motion: reduce) {
+        .abc-radio label::before {
+          transition: none; } }
     .abc-radio label::after {
       cursor: pointer;
       display: inline-block;
@@ -249,9 +255,10 @@
 .abc-radio-success input[type="radio"]:checked + label::after {
   background-color: #28a745; }
 
-label .was-validated .form-check-input:invalid .abc-checkbox:before, label
-.was-validated .form-check-input:invalid .abc-radio:before, label .form-check-input.is-invalid .abc-checkbox:before, label
-.form-check-input.is-invalid .abc-radio:before {
+label .was-validated .form-check-input:invalid .abc-checkbox:before,
+label .was-validated .form-check-input:invalid .abc-radio:before,
+label .form-check-input.is-invalid .abc-checkbox:before,
+label .form-check-input.is-invalid .abc-radio:before {
   border-color: #dc3545; }
 
 /*# sourceMappingURL=build.css.map */
