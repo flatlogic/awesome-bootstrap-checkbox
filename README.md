@@ -1,4 +1,6 @@
 Awesome Bootstrap Checkbox
+
+**[View Demo][]** | [Download](https://github.com/flatlogic/awesome-bootstrap-checkbox.git) | [More templates](https://flatlogic.com/templates) | [Support forum](https://flatlogic.com/forum)
 ==========================
 
 [![NPM version](https://img.shields.io/npm/v/awesome-bootstrap-checkbox.svg?style=flat)](https://www.npmjs.com/package/awesome-bootstrap-checkbox)
@@ -188,6 +190,10 @@ How can I support developers?
 - Create pull requests, submit bugs, suggest new features or documentation updates :wrench:
 - Follow us on [Twitter](https://twitter.com/flatlogic) :feet:
 - Like our page on [Facebook](https://www.facebook.com/flatlogic/) :thumbsup:
+
+Support
+------------------------------
+For any additional information please go to our [**support forum**](https://flatlogic.com/forum) and raise your questions or feedback provide there. We highly appreciate your participation!
 
 More from Flatlogic
 ------------------------------
