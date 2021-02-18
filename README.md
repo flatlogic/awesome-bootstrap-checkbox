@@ -1,6 +1,4 @@
-Awesome Bootstrap Checkbox
-
-**[View Demo][]** | [Download](https://github.com/flatlogic/awesome-bootstrap-checkbox.git) | [More templates](https://flatlogic.com/templates) | [Support forum](https://flatlogic.com/forum)
+# 🤘 Awesome Bootstrap Checkbox
 ==========================
 
 [![NPM version](https://img.shields.io/npm/v/awesome-bootstrap-checkbox.svg?style=flat)](https://www.npmjs.com/package/awesome-bootstrap-checkbox)
@@ -8,11 +6,11 @@ Awesome Bootstrap Checkbox
 [![Dependency Status](https://img.shields.io/david/dev/flatlogic/awesome-bootstrap-checkbox.svg?branch=master&style=flat)](https://www.npmjs.com/package/awesome-bootstrap-checkbox)
 [![Join the chat at https://gitter.im/flatlogic/awesome-bootstrap-checkbox](https://badges.gitter.im/flatlogic/awesome-bootstrap-checkbox.svg)](https://gitter.im/flatlogic/awesome-bootstrap-checkbox?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+[View Demo](http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/) | [Download](https://github.com/flatlogic/awesome-bootstrap-checkbox.git) | [More templates](https://flatlogic.com/templates) | [Support forum](https://flatlogic.com/forum)
+
 [Font Awesome][] [Bootstrap][] Checkboxes & Radios plugin. Pure CSS way to make inputs look prettier. **No Javascript!**
 
 For **[Bootstrap 4 version][]** please checkout [bump-to-bootstrap4][] branch!
-
-**[Demo][]**
 
 Check out our admin template dashboards
 -----------
