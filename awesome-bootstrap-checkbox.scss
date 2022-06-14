@@ -9,6 +9,10 @@ $fa-var-check: "\f00c" !default;
 $check-icon: $fa-var-check !default;
 $abc-border-width: 5px !default;
 
+@function theme-color($key: "primary") {
+  @return map-get($theme-colors, $key);
+}
+
 @mixin checkbox-variant($parent, $color) {
   #{$parent} input[type="checkbox"]:checked + label,
   #{$parent} input[type="radio"]:checked + label {
