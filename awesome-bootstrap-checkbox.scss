@@ -7,7 +7,7 @@
 $font-family-icon: 'FontAwesome' !default;
 $fa-var-check: "\f00c" !default;
 $check-icon: $fa-var-check !default;
-$abc-border-width: 5px !default;
+$abc-border-width: 1px !default;
 $form-check-input-gutter: 1.25rem !default;
 
 @function theme-color($key: "primary") {
