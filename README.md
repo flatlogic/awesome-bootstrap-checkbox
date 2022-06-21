@@ -143,10 +143,10 @@ Credits
 Based on the [Bootstrap][] and the awesome [Font Awesome][].
 
 
-[Demo]: http://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0/
-[Bootstrap]: http://getbootstrap.com/
-[Bootstrap 4]: http://getbootstrap.com/
+[Demo]: https://flatlogic.github.io/awesome-bootstrap-checkbox/demo/1.0.0/
+[Bootstrap]: https://getbootstrap.com/docs/3.4/
+[Bootstrap 4]: https://getbootstrap.com/
 [Font Awesome]: https://github.com/FortAwesome/Font-Awesome
-[Glyphicons]: http://getbootstrap.com/components/#glyphicons
-[Sass]: http://sass-lang.com/
+[Glyphicons]: https://getbootstrap.com/components/#glyphicons
+[Sass]: https://sass-lang.com/
 [Less]: http://lesscss.org/
