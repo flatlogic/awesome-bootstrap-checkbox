@@ -9,8 +9,9 @@
 
 [Font Awesome][] [Bootstrap][] Checkboxes & Radios plugin. Pure CSS way to make inputs look prettier. **No Javascript!**
 
-For **[Bootstrap 4 version][]** please checkout [bump-to-bootstrap4][] branch
-For **[Bootstrap 5 version][]** please checkout [bump-to-bootstrap5][] branch
+For **[Bootstrap 4 version](https://getbootstrap.com/docs/4.6/getting-started/introduction/)** please checkout [bump-to-bootstrap4][] branch
+
+For **[Bootstrap 5 version](https://getbootstrap.com/)** please checkout [bump-to-bootstrap5](https://github.com/flatlogic/awesome-bootstrap-checkbox/tree/bump-to-bootstrap5) branch
 
 Check out our admin template dashboards
 -----------
