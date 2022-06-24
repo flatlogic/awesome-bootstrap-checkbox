@@ -15,7 +15,7 @@ For **[Bootstrap 5 version](https://getbootstrap.com/)** please checkout [bump-t
 
 Check out our React/Vue/Angular/Node.js boilerplates
 -----------
-[Flatlogic Dashboards](https://flatlogic.com/templates) - 💥Free and open-source application boilerplates built with Bootstrap 5, React, Vue, Angular, Node.js
+[Flatlogic Templates](https://flatlogic.com/templates) - 💥Free and open-source application boilerplates built with Bootstrap 5, React, Vue, Angular, Node.js
 
 Use
 ------------
@@ -198,7 +198,7 @@ More from Flatlogic
 ------------------------------
 - [React Native Starter](https://flatlogic.com/templates/react-native) - 🚀 A powerful react native starter template that bootstraps development of your mobile application 
 - [Sing App Dashboard](https://flatlogic.com/templates/sing-app-html5) - 💥 Free and open-source admin dashboard template built with Bootstrap 4
-- [React Materil Admin](https://flatlogic.com/templates/react-material-admin-full) - ⚡ Admin boilerplate made with React 17 and Material-UI 5
+- [React Material Admin](https://flatlogic.com/templates/react-material-admin-full) - ⚡ Admin boilerplate made with React 17 and Material-UI 5
 
 Credits
 ------------
