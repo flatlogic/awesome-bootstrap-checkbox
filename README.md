@@ -13,9 +13,9 @@ For **[Bootstrap 4 version](https://getbootstrap.com/docs/4.6/getting-started/in
 
 For **[Bootstrap 5 version](https://getbootstrap.com/)** please checkout [bump-to-bootstrap5](https://github.com/flatlogic/awesome-bootstrap-checkbox/tree/bump-to-bootstrap5) branch
 
-Check out our admin template dashboards
+Check out our React/Vue/Angular/Node.js boilerplates
 -----------
-[Flatlogic Dashboards](https://flatlogic.com/admin-dashboards) - 💥Free and open-source admin dashboard templates built with Bootstrap 4, React, Vue and Angular 
+[Flatlogic Dashboards](https://flatlogic.com/templates) - 💥Free and open-source application boilerplates built with Bootstrap 5, React, Vue, Angular, Node.js
 
 Use
 ------------
@@ -196,8 +196,9 @@ For any additional information please go to our [**support forum**](https://flat
 
 More from Flatlogic
 ------------------------------
-- [React Native Starter](https://github.com/flatlogic/react-native-starter) - 🚀 A powerful react native starter template that bootstraps development of your mobile application 
-- [Sing App Dashboard](https://github.com/flatlogic/sing-app) - 💥Free and open-source admin dashboard template built with Bootstrap 4 
+- [React Native Starter](https://flatlogic.com/templates/react-native) - 🚀 A powerful react native starter template that bootstraps development of your mobile application 
+- [Sing App Dashboard](https://flatlogic.com/templates/sing-app-html5) - 💥 Free and open-source admin dashboard template built with Bootstrap 4
+- [React Materil Admin](https://flatlogic.com/templates/react-material-admin-full) - ⚡ Admin boilerplate made with React 17 and Material-UI 5
 
 Credits
 ------------
