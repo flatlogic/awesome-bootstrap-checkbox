@@ -3,8 +3,8 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>awesome bootstrap checkbox demo</title>
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="build.css"/>
 </head>
 <body>
@@ -287,7 +287,6 @@
             </div>
         </div>
     </form>
-
     <form role="form">
         <div class="row mt-3">
             <div class="col-12">
@@ -301,10 +300,10 @@
     </form>
 </div>
 <script type="text/javascript">
-  function changeState(el) {
-    if (el.readOnly) el.checked=el.readOnly=false;
-    else if (!el.checked) el.readOnly=el.indeterminate=true;
-  }
+    function changeState(el) {
+        if (el.readOnly) el.checked=el.readOnly=false;
+        else if (!el.checked) el.readOnly=el.indeterminate=true;
+    }
 </script>
 </body>
 </html>
